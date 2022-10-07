@@ -1,0 +1,52 @@
+- name: Startseite
+  link: /
+
+- name: Mukoviszidose
+  dropdown:
+  - name: Mukoviszidose
+    link: /cf
+
+  - name: Was ist Mukoviszidose?
+    link: /cf/was-ist-mukoviszidose
+
+  - name: Wer bekommt Mukoviszidose?
+    link: /cf/wer-bekommt-mukoviszidose
+
+  - name: Woran erkennt man Mukoviszidose?
+    link: /cf/woran-erkennt-man-mukoviszidose
+
+  - name: Behandlung von Mukoviszidose?
+    link: /cf/behandlung-von-mukoviszidose
+
+- name: Über Uns
+  dropdown:
+    - name: Über Uns
+      link: /about/uns
+
+    - name: Der Verein
+      link: /about/der-verein
+
+- name: Termine
+  link: /termine
+
+- name: Informationen
+  link: /infos
+
+- name: Spenden
+  link: /spenden
+
+- name: Service und Links
+  dropdown:
+    - name: Service und Links
+      link: /service
+
+    - name: CF Ambulanzen
+      dropdown:
+        - name: CF Ambulanzen
+          link: /service/cf-ambulanzen
+
+        - name: J.W. Goethe-Universität
+          link: /service/cf-ambulanzen/goethe-universitaet
+
+- name: Kontakt
+  link: /kontakt

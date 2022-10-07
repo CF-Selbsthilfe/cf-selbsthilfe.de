@@ -1,0 +1,50 @@
+<footer class="cf-footer">
+  <div class="container py-3 cf-wrapper">
+    <div class="row">
+      <div class="col-md py-2">
+        <b>Kontakt Informationen</b>
+        <ul class="no-bullets">
+          <li>
+            <i class="fa-solid fa-phone"></i> <div class="contact-info">06172 - 898121</div>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i> <a href="mailto:kontakt@cf-selbsthilfe.de"><div class="contact-info">kontakt@cf-selbsthilfe.de</div></a>
+          </li>
+          <li>
+            <i class="fa-solid fa-location-dot"></i> <div class="contact-info">Philosophenweg 13, D-61350 Bad Homburg</div>
+        </ul>
+      </div>
+      <div class="col-md py-2">
+        <b>Soziale Netzwerke</b>
+        <p>
+          Unsere Sozialen Netzwerke im Überblick
+        </p>
+        <p>
+          <a href="https://twitter.com/CFSelbsthilfe" ><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+          <a href="https://www.facebook.com/people/CF-Selbsthilfe-Frankfurt-eV/100064438252726/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+          <a href="{{ "feed.xml" | relative_url }}" ><i class="fa-solid fa-square-rss fa-2xl"></i></a>
+        </p>
+      </div>
+      <div class="col-md py-2">
+        <b>Aktuelle Tweets</b>
+      </div>
+    </div>
+  </div>
+  <div class="cf-bottom-bar">
+    <div class="container py-3 cf-wrapper">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="copyright-text">
+            &copy {{ site.year_created }}{% if site.year_created != site.current_year %}-{{ site.current_year }}{% endif %} - CF-Selbsthilfe Frankfurt e.V.
+          <p>
+        </div>
+        <div class="col-md-6">
+          <p class="footer-text">
+            Impressum | Datenschutzerklärung | <a href="{{ "sitemap.xml" | relative_url }}">Sitemap</a>
+          </p>
+      </div>
+      
+    </div>
+  </div>
+  <script src="{{ "/assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+</footer>
