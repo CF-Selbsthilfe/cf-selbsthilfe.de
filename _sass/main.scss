@@ -118,3 +118,43 @@ img.text-inline-center {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+
+div.cf-post {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    padding-left: 3px;
+    border: 1px solid darken($lightgray, 10%);
+    border-radius: 7px;
+}
+
+a.post-link {
+    text-decoration: none;
+}
+
+a.post-link:hover {
+    text-decoration: underline;
+
+    span.cf-post-text {
+        text-decoration: underline;
+        text-decoration-color: black;
+    }
+
+    span.cf-post-date {
+        text-decoration: underline;
+        text-decoration-color: darkgrey;
+    }
+}
+
+span.cf-post-text {
+    color: black;
+    font-weight: bold;
+}
+
+span.cf-post-date{
+    color: darkgrey;
+    font-size: 0.9rem;
+}
+
+
