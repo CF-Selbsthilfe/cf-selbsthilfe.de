@@ -4,12 +4,12 @@ layout: default
 <h3>Herzlich Wilkommen auf der Internetseite des CF-Selbsthilfe Frankfurt e.V.</h3>
 
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-8">
         <p>
             Der CF-Selbsthilfe Frankfurt e.V. setzt sich seit 1982 für die Belange der Mukoviszidose-Betroffenen ein.
         </p>
 
-        <img src="{{ "assets/img/Gemeinsam-stark-gegen-Mukoviszidose-620x329px.png" | relative_url }}"
+        <img src="{{ "assets/img/slider-gemstark-cf-selbsthilfe.png" | relative_url }}"
             class="img-fluid text-start text-inline-center" alt="Gemeinsam stark gegen Mukoviszidose">
 
         <p>
@@ -52,7 +52,7 @@ layout: default
                     Familien in denen cystische Fibrose erblich bedingt aus den vergangenen Generationen bekannt ist,
                     haben die Möglichkeit sich in entsprechenden genetischen Behandlungszentren beraten zu lassen.
 
-                    Wir das Team der CF-Selbsthilfe Frankfurt e.V. setzen uns gezielt für die Betroffenen, Familien &
+                    Wir das Team des CF-Selbsthilfe Frankfurt e.V. setzen uns gezielt für die Betroffenen, Familien &
                     Freunde welche unter Mukoviszidose leiden ein. Unser Beitrag richtet sich an alle, welche mit dem
                     Thema Mukoviszidose in Berührung gekommen sind oder kommen werden.
                 </p>
@@ -63,16 +63,14 @@ layout: default
 
         <p><b>Das Team des CF-Selbsthilfe Frankfurt e.V.</b></p>
     </div>
-    <div class="col-md-4">
+    <div class="col-lg-4">
         <div class="cf-callout">
             Wir sind Mitglied im
         </div>
-        {% for sponsor in site.data.sponsors %}
-        <img src="{{ sponsor.img | relative_url }}" class="img-fluid cf-sponsor" alt={{ sponsor.alt }}>
+        {% for mem in site.data.member_in %}
+        <img src="{{ mem.img | relative_url }}" class="img-fluid cf-member" alt={{ mem.alt }}>
         {% endfor %}
-        <div class="cf-callout">
-            Zukünftige Termine
-        </div>
+
         <div class="cf-callout">
             Letzte Beiträge
         </div>
@@ -86,7 +84,16 @@ layout: default
         {% endfor %}
 
         <div class="cf-callout">
+            Zukünftige Termine
+        </div>
+        <div class="cf-calendar" id='calendar'></div>
+
+        <div class="cf-callout">
             Sponsoren
         </div>
+        {% for sponsor in site.data.sponsors %}
+        <img src="{{ sponsor.img | relative_url }}" class="img-fluid cf-sponsor" alt={{ sponsor.alt }}>
+        {% endfor %}
+
     </div>
 </div>

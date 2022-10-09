@@ -5,7 +5,35 @@
   {%- seo -%}
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.ico" | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ "/favicon.ico" | relative_url }}">
+
+  <!-- calendar -->
+  <link rel="stylesheet" href="{{ "/assets/css/fullcalendar/main.min.css" | relative_url }}">
+  <script src="{{ "/assets/js/fullcalendar/main.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/fullcalendar/locales/de.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/fullcalendar/locales/en-gb.js" | relative_url }}"></script>
+
+  <script>
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var calendarEl = document.getElementById("calendar");
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        locale: "de",
+        local: "local",
+        initialView: "dayGridMonth",
+        headerToolbar: {
+          left: "title",
+          center: "",
+          right: "today prev,next"
+        },
+        height: "auto",
+      });
+      calendar.render();
+    });
+
+  </script>
+
+
 
   {%- feed_meta -%}
 

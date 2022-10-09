@@ -38,6 +38,18 @@ div.container.cf-wrapper {
     max-width: 1100px
 }
 
+a.cf-socials {
+    color: $cf-blue;
+}
+
+a.cf-socials:hover {
+    color: darken($cf-blue, 10%);
+}
+
+p.cf-socials {
+    margin-top: 0.3rem;
+}
+
 footer.cf-footer {
     background-color: $lightgray;
     border-top: 1px solid darken($lightgray, 10%);
@@ -58,6 +70,7 @@ $bottom-bar-fontsize: 0.8rem;
 p.footer-text {
     font-size: $bottom-bar-fontsize;
     text-align: left;
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -74,6 +87,7 @@ p.copyright-text {
 div.contact-info {
     font-size: 0.9rem;
     display: inline;
+    color: black;
 }
 
 button.cf-navbar-toggler {
@@ -100,10 +114,25 @@ div.cf-callout {
     font-weight: bold;
 }
 
+img.cf-member {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    border: 1px solid $lightgray;
+}
+
 img.cf-sponsor {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 10px;
     border: 1px solid $lightgray;
+    width: 33%;
+}
+
+@media (min-width: 992px) {
+    img.cf-sponsor {
+        width: 55%;
+    }
 }
 
 img.text-inline-start {
@@ -123,8 +152,8 @@ img.text-inline-center {
 div.cf-post {
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 15px;
-    padding-left: 3px;
+    margin-left: 10px;
+    padding-left: 8px;
     border: 1px solid darken($lightgray, 10%);
     border-radius: 7px;
 }
@@ -155,6 +184,16 @@ span.cf-post-text {
 span.cf-post-date{
     color: darkgrey;
     font-size: 0.9rem;
+}
+
+a.cf-a {
+    color: black;
+    text-decoration: none;
+}
+
+a.cf-a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 
