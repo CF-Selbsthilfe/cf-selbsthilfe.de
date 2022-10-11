@@ -26,8 +26,8 @@
     - name: Der Verein
       link: /about/der-verein
 
-- name: Termine
-  link: /termine
+- name: Beiträge
+  link: /beitraege
 
 - name: Informationen
   link: /infos

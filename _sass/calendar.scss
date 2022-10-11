@@ -30,15 +30,20 @@ div.cf-calendar {
 
 .fc-daygrid-day-events {
     margin-bottom: 0px !important;
-    min-height: 1rem !important;
+    min-height: 1.4rem !important;
 }
 
 a.fc-daygrid-day-number {
     color: black;
     text-decoration: none;
+    padding: 0px 4px !important;
 }
 
 a.fc-col-header-cell-cushion {
     color: black;
     text-decoration: none;
+}
+
+.fc-daygrid-day-bottom {
+    padding: 0px !important;
 }
