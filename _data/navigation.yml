@@ -27,10 +27,10 @@
       link: /about/der-verein
 
 - name: Beiträge
-  link: /beitraege
+  link: /beitraege/index
 
-- name: Informationen
-  link: /infos
+- name: Termine
+  link: /termine
 
 - name: Spenden
   link: /spenden
