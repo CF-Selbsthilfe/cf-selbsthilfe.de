@@ -1,327 +1,458 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>cf-selbsthilfe.de | Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="cf-selbsthilfe.de" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung." />
-<meta property="og:description" content="Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung." />
-<link rel="canonical" href="http://www.cf-selbsthilfe.de//cf-selbsthilfe/" />
-<meta property="og:url" content="http://www.cf-selbsthilfe.de//cf-selbsthilfe/" />
-<meta property="og:site_name" content="cf-selbsthilfe.de" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="cf-selbsthilfe.de" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.","headline":"cf-selbsthilfe.de","name":"cf-selbsthilfe.de","url":"http://www.cf-selbsthilfe.de//cf-selbsthilfe/"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/cf-selbsthilfe/assets/css/main.css">
-  <link rel="icon" type="image/png" href="/cf-selbsthilfe/favicon.ico">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <title>
+      cf-selbsthilfe.de | Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem
+      gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und
+      deren Angehörigen im Großraum Frankfurt und Umgebung.
+    </title>
+    <meta name="generator" content="Jekyll v3.9.2" />
+    <meta property="og:title" content="cf-selbsthilfe.de" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      name="description"
+      content="Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung."
+    />
+    <meta
+      property="og:description"
+      content="Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung."
+    />
+    <link
+      rel="canonical"
+      href="http://www.cf-selbsthilfe.de//cf-selbsthilfe/"
+    />
+    <meta
+      property="og:url"
+      content="http://www.cf-selbsthilfe.de//cf-selbsthilfe/"
+    />
+    <meta property="og:site_name" content="cf-selbsthilfe.de" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="cf-selbsthilfe.de" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "description": "Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.",
+        "headline": "cf-selbsthilfe.de",
+        "name": "cf-selbsthilfe.de",
+        "url": "http://www.cf-selbsthilfe.de//cf-selbsthilfe/"
+      }
+    </script>
+    <!-- End Jekyll SEO tag -->
+    <link rel="stylesheet" href="/cf-selbsthilfe/assets/css/main.css" />
+    <link rel="icon" type="image/png" href="/cf-selbsthilfe/favicon.ico" />
 
-  <!-- calendar -->
-  <link rel="stylesheet" href="/cf-selbsthilfe/assets/css/fullcalendar/main.min.css">
-  <script src="/cf-selbsthilfe/assets/js/fullcalendar/main.min.js"></script>
-  <script src="/cf-selbsthilfe/assets/js/fullcalendar/locales/de.js"></script>
-  <script src="/cf-selbsthilfe/assets/js/fullcalendar/locales/en-gb.js"></script>
+    <!-- calendar -->
+    <link
+      rel="stylesheet"
+      href="/cf-selbsthilfe/assets/css/fullcalendar/main.min.css"
+    />
+    <script src="/cf-selbsthilfe/assets/js/fullcalendar/main.min.js"></script>
+    <script src="/cf-selbsthilfe/assets/js/fullcalendar/locales/de.js"></script>
+    <script src="/cf-selbsthilfe/assets/js/fullcalendar/locales/en-gb.js"></script>
 
-  <script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          locale: "de",
+          local: "local",
+          initialView: "dayGridMonth",
+          headerToolbar: {
+            left: "title",
+            center: "",
+            right: "today prev,next",
+          },
+          height: "auto",
 
-    document.addEventListener("DOMContentLoaded", function() {
-      var calendarEl = document.getElementById("calendar");
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        locale: "de",
-        local: "local",
-        initialView: "dayGridMonth",
-        headerToolbar: {
-          left: "title",
-          center: "",
-          right: "today prev,next"
-        },
-        height: "auto",
-
-        googleCalendarApiKey: "AIzaSyCcND4QLv_PoDMw2DU1KKyiNH2YUExfG9o",
-        events: {
-          googleCalendarId: "00e2e345637b6ac1fcd1c30a569419c2fcdc1b804b270b74f3cd7ef08b12a64d@group.calendar.google.com"
-        },
-        eventDisplay: "block",
-        displayEventTime: false,
-        displayEventEnd: false,
-        eventBackgroundColor: "#00a7eb",
+          googleCalendarApiKey: "AIzaSyCcND4QLv_PoDMw2DU1KKyiNH2YUExfG9o",
+          events: {
+            googleCalendarId:
+              "00e2e345637b6ac1fcd1c30a569419c2fcdc1b804b270b74f3cd7ef08b12a64d@group.calendar.google.com",
+          },
+          eventDisplay: "block",
+          displayEventTime: false,
+          displayEventEnd: false,
+          eventBackgroundColor: "#00a7eb",
+        });
+        calendar.render();
       });
-      calendar.render();
-    });
+    </script>
+    <link
+      type="application/atom+xml"
+      rel="alternate"
+      href="http://www.cf-selbsthilfe.de//cf-selbsthilfe/feed.xml"
+      title="cf-selbsthilfe.de"
+    />
+    <title>- cf-selbsthilfe.de</title>
+  </head>
 
-  </script><link type="application/atom+xml" rel="alternate" href="http://www.cf-selbsthilfe.de//cf-selbsthilfe/feed.xml" title="cf-selbsthilfe.de" /><title> - cf-selbsthilfe.de</title>
-</head>
+  <body>
+    <header class="cf-header">
+      <div class="container py-3 cf-wrapper">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="d-flex flex-column w-100">
+            <div class="row">
+              <div class="col">
+                <a href="/cf-selbsthilfe/">
+                  <img
+                    src="/cf-selbsthilfe/assets/img/cf-selbsthilfe-logo-117x98px.png"
+                    class="text-start"
+                    alt="CF Selbsthilfe eV Frankfurt Logo"
+                  />
+                </a>
+              </div>
+              <div class="col position-relative">
+                <button
+                  class="navbar-toggler position-absolute cf-navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon cf-toggler-icon"></span>
+                </button>
+              </div>
+            </div>
+            <div class="container p-0">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-fill w-100 cf-navbar">
+                  <li class="nav-item cf-nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/cf-selbsthilfe/"
+                      >Startseite</a
+                    >
+                  </li>
 
-<body>
-  <header class="cf-header">
+                  <li class="nav-item cf-nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Mukoviszidose
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Mukoviszidose</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Was ist Mukoviszidose?</a
+                        >
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Wer bekommt Mukoviszidose?</a
+                        >
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Woran erkennt man Mukoviszidose?</a
+                        >
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Behandlung von Mukoviszidose?</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item cf-nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Über Uns
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Über Uns</a></li>
+
+                      <li><a class="dropdown-item" href="#">Der Verein</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item cf-nav-item">
+                    <a class="nav-link" href="/cf-selbsthilfe/beitraege/index"
+                      >Beiträge</a
+                    >
+                  </li>
+
+                  <li class="nav-item cf-nav-item">
+                    <a class="nav-link" href="/cf-selbsthilfe/termine"
+                      >Termine</a
+                    >
+                  </li>
+
+                  <li class="nav-item cf-nav-item">
+                    <a class="nav-link" href="/cf-selbsthilfe/spenden"
+                      >Spenden</a
+                    >
+                  </li>
+
+                  <li class="nav-item cf-nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Service und Links
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Service und Links</a>
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="#">CF Ambulanzen</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item cf-nav-item">
+                    <a class="nav-link" href="/cf-selbsthilfe/kontakt"
+                      >Kontakt</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
     <div class="container py-3 cf-wrapper">
-      <nav class="navbar navbar-expand-lg p-0">
-  <div class="d-flex flex-column w-100">
-  <div class="row">
-    <div class="col">
-      <a href="/cf-selbsthilfe/">
-      <img src="/cf-selbsthilfe/assets/img/cf-selbsthilfe-logo-117x98px.png" class="text-start" alt="CF Selbsthilfe eV Frankfurt Logo">
-      </a>
-    </div>
-    <div class="col position-relative">
-      <button class="navbar-toggler position-absolute cf-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon cf-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-  <div class="container p-0">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav nav-fill w-100 cf-navbar">
-        
-          
-            <li class="nav-item cf-nav-item">
-              <a class="nav-link  active" aria-current="page" href=/cf-selbsthilfe/>Startseite</a>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Mukoviszidose
-              </a>
-              <ul class="dropdown-menu">
-                
-                <li><a class="dropdown-item" href="#">Mukoviszidose</a></li>
-                
-                <li><a class="dropdown-item" href="#">Was ist Mukoviszidose?</a></li>
-                
-                <li><a class="dropdown-item" href="#">Wer bekommt Mukoviszidose?</a></li>
-                
-                <li><a class="dropdown-item" href="#">Woran erkennt man Mukoviszidose?</a></li>
-                
-                <li><a class="dropdown-item" href="#">Behandlung von Mukoviszidose?</a></li>
-                
-              </ul>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Über Uns
-              </a>
-              <ul class="dropdown-menu">
-                
-                <li><a class="dropdown-item" href="#">Über Uns</a></li>
-                
-                <li><a class="dropdown-item" href="#">Der Verein</a></li>
-                
-              </ul>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item">
-              <a class="nav-link " href=/cf-selbsthilfe/beitraege>Beiträge</a>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item">
-              <a class="nav-link " href=/cf-selbsthilfe/infos>Informationen</a>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item">
-              <a class="nav-link " href=/cf-selbsthilfe/spenden>Spenden</a>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Service und Links
-              </a>
-              <ul class="dropdown-menu">
-                
-                <li><a class="dropdown-item" href="#">Service und Links</a></li>
-                
-                <li><a class="dropdown-item" href="#">CF Ambulanzen</a></li>
-                
-              </ul>
-            </li>
-          
-        
-          
-            <li class="nav-item cf-nav-item">
-              <a class="nav-link " href=/cf-selbsthilfe/kontakt>Kontakt</a>
-            </li>
-          
-        
-
-      </ul>
-    </div>
-  </div>
-  </div>
-</nav>
-    </div>
-</header>
-  
-  <div class="container py-3 cf-wrapper">
-    <div class="container px-2 py-2">
-      
-      <h3>Herzlich Wilkommen auf der Internetseite des CF-Selbsthilfe Frankfurt e.V.</h3>
-
-<div class="row">
-    <div class="col-lg-8">
-        <p>
-            Der CF-Selbsthilfe Frankfurt e.V. setzt sich seit 1982 für die Belange der Mukoviszidose-Betroffenen ein.
-        </p>
-
-        <img src="/cf-selbsthilfe/assets/img/slider-gemstark-cf-selbsthilfe.png"
-            class="img-fluid text-start text-inline-center" alt="Gemeinsam stark gegen Mukoviszidose">
-
-        <p>
-            Jedes Jahr erblicken rund 200 Kinder mit dem Krankheitsbild Mukoviszidose (cystische Fibrose) das Licht der
-            Welt. Kaum einer weiß es und doch sind ganze fünf Prozent unserer Bevölkerung potentielle Merkmalsträger der
-            Erbkrankheit Mukoviszidose. Trotz der Annahme der vollkommenen Gesundheit können auch Sie Mukoviszidose in
-            kommende Generationen weiter vererben.
-        </p>
-        <div class="row">
-            <div class="col-md">
-                <img src="/cf-selbsthilfe/assets/img/Kind-Krank-300x200.jpg"
-                    class="img-fluid float-start text-inline-start" alt="CF-Selbsthilfe Frankfurt e.V.">
-
-                <p>
-                    Am häufigsten erkennt man Mukoviszidose an den für die autosomal-rezessive Erbkrankheit typischsten
-                    Erkennungsmerkmalen wie z.B chronischer Husten, mittlere bis schwere Lungenentzündung,
-                    Bauchschmerzen, Durchfall, Verdauungsprobleme und Untergewicht. Diese Beschwerden werden dadurch
-                    gebildet, dass Drüsen, welche im Körper für die Schleimbildung zuständig sind nicht ordnungsgemäß
-                    funktionieren. Von daher äußert sich die cystische Fibrose durch einen zähen Schleim der die
-                    Ausführungsgänge der Drüsen verstopft und zur Folge weitere Organe des Körpers beeinträchtigt.
-                </p>
-            </div>
-        </div>
-        <p>
-            In Deutschland leben derzeit ca. 8.000 Menschen mit der angeborenen Stoffwechselkrankheit. Der derzeit noch
-            unheilbare Krankheit stellen sich Tag für Tag unzählige Ärzte mit den unterschiedlichsten Techniken und
-            Methoden um ein Heilmittel herbei zu führen. Bislang jedoch leider ohne Erfolg.
-
-            Resultierend aus der derzeitigen Unheilbarkeit ist Mukoviszidose derzeit nur im Form einer Therapie der
-            vorliegenden Symptomatiken behandelbar. Eine mit dem Krankheitsbild verbundene Möglichkeit einer
-            Lungentransplantation ist jedoch nur in den seltensten Fällen realisierbar und erfolgsversprechend.
-        </p>
+      <div class="container px-2 py-2">
+        <h3>
+          Herzlich Wilkommen auf der Internetseite des CF-Selbsthilfe Frankfurt
+          e.V.
+        </h3>
 
         <div class="row">
-            <div class="col-md">
-                <img src="/cf-selbsthilfe/assets/img/Mann-am-Meer-300x200.jpg"
-                    class="img-fluid float-end text-inline-end" alt="CF-Selbsthilfe Frankfurt e.V.">
+          <div class="col-lg-8">
+            <p>
+              Der CF-Selbsthilfe Frankfurt e.V. setzt sich seit 1982 für die
+              Belange der Mukoviszidose-Betroffenen ein.
+            </p>
+
+            <img
+              src="/cf-selbsthilfe/assets/img/slider-gemstark-cf-selbsthilfe.png"
+              class="img-fluid text-start text-inline-center"
+              alt="Gemeinsam stark gegen Mukoviszidose"
+            />
+
+            <p>
+              Jedes Jahr erblicken rund 200 Kinder mit dem Krankheitsbild
+              Mukoviszidose (cystische Fibrose) das Licht der Welt. Kaum einer
+              weiß es und doch sind ganze fünf Prozent unserer Bevölkerung
+              potentielle Merkmalsträger der Erbkrankheit Mukoviszidose. Trotz
+              der Annahme der vollkommenen Gesundheit können auch Sie
+              Mukoviszidose in kommende Generationen weiter vererben.
+            </p>
+            <div class="row">
+              <div class="col-md">
+                <img
+                  src="/cf-selbsthilfe/assets/img/Kind-Krank-300x200.jpg"
+                  class="img-fluid float-start text-inline-start"
+                  alt="CF-Selbsthilfe Frankfurt e.V."
+                />
 
                 <p>
-                    Familien in denen cystische Fibrose erblich bedingt aus den vergangenen Generationen bekannt ist,
-                    haben die Möglichkeit sich in entsprechenden genetischen Behandlungszentren beraten zu lassen.
-
-                    Wir das Team des CF-Selbsthilfe Frankfurt e.V. setzen uns gezielt für die Betroffenen, Familien &
-                    Freunde welche unter Mukoviszidose leiden ein. Unser Beitrag richtet sich an alle, welche mit dem
-                    Thema Mukoviszidose in Berührung gekommen sind oder kommen werden.
+                  Am häufigsten erkennt man Mukoviszidose an den für die
+                  autosomal-rezessive Erbkrankheit typischsten
+                  Erkennungsmerkmalen wie z.B chronischer Husten, mittlere bis
+                  schwere Lungenentzündung, Bauchschmerzen, Durchfall,
+                  Verdauungsprobleme und Untergewicht. Diese Beschwerden werden
+                  dadurch gebildet, dass Drüsen, welche im Körper für die
+                  Schleimbildung zuständig sind nicht ordnungsgemäß
+                  funktionieren. Von daher äußert sich die cystische Fibrose
+                  durch einen zähen Schleim der die Ausführungsgänge der Drüsen
+                  verstopft und zur Folge weitere Organe des Körpers
+                  beeinträchtigt.
                 </p>
+              </div>
             </div>
-        </div>
+            <p>
+              In Deutschland leben derzeit ca. 8.000 Menschen mit der
+              angeborenen Stoffwechselkrankheit. Der derzeit noch unheilbare
+              Krankheit stellen sich Tag für Tag unzählige Ärzte mit den
+              unterschiedlichsten Techniken und Methoden um ein Heilmittel
+              herbei zu führen. Bislang jedoch leider ohne Erfolg. Resultierend
+              aus der derzeitigen Unheilbarkeit ist Mukoviszidose derzeit nur im
+              Form einer Therapie der vorliegenden Symptomatiken behandelbar.
+              Eine mit dem Krankheitsbild verbundene Möglichkeit einer
+              Lungentransplantation ist jedoch nur in den seltensten Fällen
+              realisierbar und erfolgsversprechend.
+            </p>
 
-        <p><b>Wir freuen uns über Ihre Teilnahme, denn gemeinsam können wir mehr erreichen.</b></p>
+            <div class="row">
+              <div class="col-md">
+                <img
+                  src="/cf-selbsthilfe/assets/img/Mann-am-Meer-300x200.jpg"
+                  class="img-fluid float-end text-inline-end"
+                  alt="CF-Selbsthilfe Frankfurt e.V."
+                />
 
-        <p><b>Das Team des CF-Selbsthilfe Frankfurt e.V.</b></p>
-    </div>
-    <div class="col-lg-4">
-        <div class="cf-callout">
-            Wir sind Mitglied im
-        </div>
-        
-        <img src="/cf-selbsthilfe/assets/img/sponsors/Muko-Sponsor.png" class="img-fluid cf-member" alt=Muko e.V.>
-        
-        <img src="/cf-selbsthilfe/assets/img/sponsors/Der-Paritaetische-Sponsor-285x56px.jpg" class="img-fluid cf-member" alt=Der Paritätische>
-        
+                <p>
+                  Familien in denen cystische Fibrose erblich bedingt aus den
+                  vergangenen Generationen bekannt ist, haben die Möglichkeit
+                  sich in entsprechenden genetischen Behandlungszentren beraten
+                  zu lassen. Wir das Team des CF-Selbsthilfe Frankfurt e.V.
+                  setzen uns gezielt für die Betroffenen, Familien & Freunde
+                  welche unter Mukoviszidose leiden ein. Unser Beitrag richtet
+                  sich an alle, welche mit dem Thema Mukoviszidose in Berührung
+                  gekommen sind oder kommen werden.
+                </p>
+              </div>
+            </div>
 
-        <div class="cf-callout">
-            Letzte Beiträge
-        </div>
-        
-        <a class="post-link" href="/cf-selbsthilfe/jekyll/update/2022/09/26/welcome-to-jekyll.html">
-            <div class="cf-post">
-                <span class="cf-post-text">Welcome to Jekyll!</span><br>
+            <p>
+              <b
+                >Wir freuen uns über Ihre Teilnahme, denn gemeinsam können wir
+                mehr erreichen.</b
+              >
+            </p>
+
+            <p><b>Das Team des CF-Selbsthilfe Frankfurt e.V.</b></p>
+          </div>
+          <div class="col-lg-4">
+            <div class="cf-callout">Wir sind Mitglied im</div>
+
+            <img
+              src="/cf-selbsthilfe/assets/img/sponsors/Muko-Sponsor.png"
+              class="img-fluid cf-member"
+              alt="Muko"
+              e.V.
+            />
+
+            <img
+              src="/cf-selbsthilfe/assets/img/sponsors/Der-Paritaetische-Sponsor-285x56px.jpg"
+              class="img-fluid cf-member"
+              alt="Der"
+              Paritätische
+            />
+
+            <div class="cf-callout">Letzte Beiträge</div>
+
+            <a
+              class="post-link"
+              href="/cf-selbsthilfe/jekyll/update/2022/09/26/welcome-to-jekyll.html"
+            >
+              <div class="cf-post">
+                <span class="cf-post-text">Welcome to Jekyll!</span><br />
                 <span class="cf-post-date">26.09.2022</span>
+              </div>
+            </a>
+
+            <div class="cf-callout">Zukünftige Termine</div>
+            <div class="cf-calendar" id="calendar"></div>
+
+            <div class="cf-callout">Sponsoren</div>
+
+            <img
+              src="/cf-selbsthilfe/assets/img/sponsors/AOK-Sponsor.jpg"
+              class="img-fluid cf-sponsor"
+              alt="AOK"
+            />
+
+            <img
+              src="/cf-selbsthilfe/assets/img/sponsors/IKK-Sponsor-165x91px.jpg"
+              class="img-fluid cf-sponsor"
+              alt="IKK"
+              classic
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="cf-footer">
+      <div class="container py-3 cf-wrapper">
+        <div class="row">
+          <div class="col-md py-2">
+            <b>Kontakt Informationen</b>
+            <ul class="no-bullets">
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <div class="contact-info">06172 - 898121</div>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:kontakt@cf-selbsthilfe.de" class="cf-a"
+                  ><div class="contact-info">kontakt@cf-selbsthilfe.de</div></a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="contact-info">
+                  Philosophenweg 13, D-61350 Bad Homburg
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md py-2">
+            <b>Soziale Netzwerke</b>
+            <p class="cf-socials">
+              <a href="https://twitter.com/CFSelbsthilfe" class="cf-socials"
+                ><i class="fa-brands fa-square-twitter fa-2xl"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/people/CF-Selbsthilfe-Frankfurt-eV/100064438252726/"
+                class="cf-socials"
+                ><i class="fa-brands fa-square-facebook fa-2xl"></i
+              ></a>
+              <a href="/cf-selbsthilfe/feed.xml" class="cf-socials"
+                ><i class="fa-solid fa-square-rss fa-2xl"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-md py-2">
+            <b>Aktuelle Tweets</b>
+          </div>
+        </div>
+      </div>
+      <div class="cf-bottom-bar">
+        <div class="container py-3 cf-wrapper">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="copyright-text">
+                &copy 2022 - CF-Selbsthilfe Frankfurt e.V.
+              </p>
             </div>
-        </a>
-        
-
-        <div class="cf-callout">
-            Zukünftige Termine
+            <div class="col-md-6">
+              <p class="footer-text">
+                <a class="cf-a" href="/cf-selbsthilfe/impressum">Impressum</a> |
+                <a class="cf-a" href="/cf-selbsthilfe/datenschutzerkl%C3%A4rung"
+                  >Datenschutzerklärung</a
+                >
+                | <a class="cf-a" href="/cf-selbsthilfe/sitemap.xml">Sitemap</a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="cf-calendar" id='calendar'></div>
-
-        <div class="cf-callout">
-            Sponsoren
-        </div>
-        
-        <img src="/cf-selbsthilfe/assets/img/sponsors/AOK-Sponsor.jpg" class="img-fluid cf-sponsor" alt=AOK>
-        
-        <img src="/cf-selbsthilfe/assets/img/sponsors/IKK-Sponsor-165x91px.jpg" class="img-fluid cf-sponsor" alt=IKK classic>
-        
-
-    </div>
-</div>
-    </div>
-  </div>
-
-  <footer class="cf-footer">
-  <div class="container py-3 cf-wrapper">
-    <div class="row">
-      <div class="col-md py-2">
-        <b>Kontakt Informationen</b>
-        <ul class="no-bullets">
-          <li>
-            <i class="fa-solid fa-phone"></i> <div class="contact-info">06172 - 898121</div>
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope"></i> <a href="mailto:kontakt@cf-selbsthilfe.de" class="cf-a"><div class="contact-info">kontakt@cf-selbsthilfe.de</div></a>
-          </li>
-          <li>
-            <i class="fa-solid fa-location-dot"></i> <div class="contact-info">Philosophenweg 13, D-61350 Bad Homburg</div>
-        </ul>
       </div>
-      <div class="col-md py-2">
-        <b>Soziale Netzwerke</b>
-        <p class="cf-socials">
-          <a href="https://twitter.com/CFSelbsthilfe" class="cf-socials"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
-          <a href="https://www.facebook.com/people/CF-Selbsthilfe-Frankfurt-eV/100064438252726/" class="cf-socials"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
-          <a href="/cf-selbsthilfe/feed.xml" class="cf-socials"><i class="fa-solid fa-square-rss fa-2xl"></i></a>
-        </p>
-      </div>
-      <div class="col-md py-2">
-        <b>Aktuelle Tweets</b>
-      </div>
-    </div>
-  </div>
-  <div class="cf-bottom-bar">
-    <div class="container py-3 cf-wrapper">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="copyright-text">
-            &copy 2022 - CF-Selbsthilfe Frankfurt e.V.
-          <p>
-        </div>
-        <div class="col-md-6">
-          <p class="footer-text">
-            Impressum | <a class="cf-a" href="">Datenschutzerklärung</a> | <a class="cf-a" href="/cf-selbsthilfe/sitemap.xml">Sitemap</a>
-          </p>
-      </div>
-      
-    </div>
-  </div>
-  <script src="/cf-selbsthilfe/assets/js/bootstrap.bundle.min.js"></script>
-</footer>
-</body>
-
+      <script src="/cf-selbsthilfe/assets/js/bootstrap.bundle.min.js"></script>
+    </footer>
+  </body>
 </html>
