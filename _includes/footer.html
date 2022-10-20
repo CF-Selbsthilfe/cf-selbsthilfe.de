@@ -12,6 +12,7 @@
           </li>
           <li>
             <i class="fa-solid fa-location-dot"></i> <div class="contact-info">Philosophenweg 13, D-61350 Bad Homburg</div>
+          </li>
         </ul>
       </div>
       <div class="col-md py-2">
@@ -33,14 +34,14 @@
         <div class="col-md-6">
           <p class="copyright-text">
             &copy {{ site.year_created }}{% if site.year_created != site.current_year %}-{{ site.current_year }}{% endif %} - CF-Selbsthilfe Frankfurt e.V.
-          <p>
+          </p>
         </div>
         <div class="col-md-6">
           <p class="footer-text">
-            Impressum | <a class="cf-a" href="{{ "/datenschutzerklärung.html | relative_url }}">Datenschutzerklärung</a> | <a class="cf-a" href="{{ "sitemap.xml" | relative_url }}">Sitemap</a>
+            <a class="cf-a" href="{{ "/impressum" | relative_url }}">Impressum</a> | <a class="cf-a" href="{{ "/datenschutzerklärung" | relative_url }}">Datenschutzerklärung</a> | <a class="cf-a" href="{{ "sitemap.xml" | relative_url }}">Sitemap</a>
           </p>
+        </div>
       </div>
-      
     </div>
   </div>
   <script src="{{ "/assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
