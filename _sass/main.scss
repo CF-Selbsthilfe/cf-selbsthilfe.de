@@ -1,6 +1,9 @@
 $cf-blue: #00a7eb;
 $lightgray: #f2f2f2;
 
+$termin: #fc9992;
+$beitrag: #acfa9b;
+
 footer.site-footer {
     border-top: 1px solid black;
 }
@@ -149,7 +152,7 @@ img.text-inline-center {
 }
 
 
-div.cf-post {
+div.cf-ref-post {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -158,32 +161,77 @@ div.cf-post {
     border-radius: 7px;
 }
 
-a.post-link {
+a.post-ref-link {
     text-decoration: none;
 }
 
-a.post-link:hover {
+a.post-ref-link:hover {
     text-decoration: underline;
 
-    span.cf-post-text {
+    span.cf-ref-post-text {
         text-decoration: underline;
         text-decoration-color: black;
     }
 
-    span.cf-post-date {
+    span.cf-ref-post-date {
         text-decoration: underline;
         text-decoration-color: darkgrey;
     }
 }
 
-span.cf-post-text {
+span.cf-ref-post-text {
     color: black;
     font-weight: bold;
 }
 
-span.cf-post-date{
+span.cf-ref-post-date{
     color: darkgrey;
     font-size: 0.9rem;
+}
+
+div.cf-post {
+    border-left-style: solid !important;
+    border-left-color: $cf-blue !important;
+    border-left-width: 8px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+    border: 1px solid darken($lightgray, 10%);
+    border-radius: 7px;
+}
+
+a.post-link {
+    text-decoration: none;
+}
+
+h3.cf-post-title {
+    color: black;
+}
+
+span.cf-post-date {
+    color: black;
+}
+
+div.cf-post-date {
+    border-radius: 7px;
+}
+
+div.cf-post-excerpt {
+    
+    p {
+        color: black;
+    }
+    
+    code {
+        color: $cf-blue;
+    }
+}
+
+a.post-link:hover {
+    h3.cf-post-title {
+        text-decoration: underline;
+        text-decoration-color: black;
+    }
 }
 
 a.cf-a {
@@ -194,6 +242,38 @@ a.cf-a {
 a.cf-a:hover {
     color: black;
     text-decoration: underline;
+}
+
+li.cf-post-category {
+    border-radius: 7px;
+    border: 1px solid darken($lightgray, 10%);
+    display: inline;
+    margin: 0 3px;
+}
+
+li.cf-post-category:first-child {
+    margin-left: 0;
+}
+
+li.cf-post-category:last-child {
+    margin-right: 0;
+}
+
+span.cf-post-category {
+    color: black;
+    padding: 0 7px;
+}
+
+hr.cf-hr {
+    border-top: 1px solid;
+}
+
+.termin {
+    background-color: $termin;
+}
+
+.beitrag {
+    background-color: $beitrag;
 }
 
 

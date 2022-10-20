@@ -35,10 +35,22 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+future: true
+
+paginate: 5
+paginate_path: "/beitraege/:num/"
+
+permalink: pretty
+
 collections:
   pages:
     output: true
     permalink: /:name
+
+  dates:
+    output: true
+    permalink: /:name
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Beiträge
+---
+
+{% for post in site.dates %}
+{% assign remainder = forloop.index | modulo: 3 %}
+{% if remainder == 1 %}
+<div class="row">
+{% endif %}
+  <div class="col-md-4">
+  <div class="cf-post-date">
+    <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+  </div>
+  </div>
+{% if remainder == 0 %}
+</div>
+{% endif %}
+{% endfor %}
+
+<div class="cf-calendar" id='calendar'></div>

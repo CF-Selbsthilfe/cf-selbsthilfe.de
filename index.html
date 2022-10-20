@@ -75,18 +75,26 @@ layout: default
             Letzte Beiträge
         </div>
         {% for post in site.posts limit:3 %}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-            <div class="cf-post">
-                <span class="cf-post-text">{{ post.title }}</span><br>
-                <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <a class="post-ref-link" href="{{ post.url | relative_url }}">
+            <div class="cf-ref-post">
+                <span class="cf-ref-post-text">{{ post.title }}</span><br>
+                <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
             </div>
         </a>
         {% endfor %}
 
         <div class="cf-callout">
-            Zukünftige Termine
+            Letzte Termine
         </div>
-        <div class="cf-calendar" id='calendar'></div>
+        <!--<div class="cf-calendar" id='calendar'></div>-->
+        {% for post in site.dates limit:3 %}
+        <a class="post-ref-link" href="{{ post.url | relative_url }}">
+            <div class="cf-ref-post">
+                <span class="cf-ref-post-text">{{ post.title }}</span><br>
+                <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+            </div>
+        </a>
+        {% endfor %}
 
         <div class="cf-callout">
             Sponsoren
