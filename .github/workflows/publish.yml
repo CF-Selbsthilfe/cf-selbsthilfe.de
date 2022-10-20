@@ -1,14 +1,14 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build and deploy cf-selbsthilfe.de to GitHub Pages
 
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: '0 4 * * 1'
+    - cron: '0 4 * * 1' # Run every Monday at 4am
 
 jobs:
-  github-pages:
+  jekyll:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
