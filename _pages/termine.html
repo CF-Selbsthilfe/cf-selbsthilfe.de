@@ -1,21 +1,32 @@
 ---
 layout: default
-title: Beiträge
+title: Termine
 ---
 
-{% for post in site.dates %}
-{% assign remainder = forloop.index | modulo: 3 %}
-{% if remainder == 1 %}
-<div class="row">
-{% endif %}
-  <div class="col-md-4">
-  <div class="cf-post-date">
-    <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-  </div>
-  </div>
-{% if remainder == 0 %}
-</div>
-{% endif %}
+<h3>Neueste Termine:</h3>
+{% assign now = site.time | date: '%s' %}
+{% assign count = 0 %}
+{% for post in site.categories.termin reversed %}
+    {% assign postDate = post.date | date: '%s' %}
+    {% if postDate >= now and count < 3 %}
+      <a class="date-ref-link" href="{{ post.url | relative_url }}">
+        <div class="cf-ref-date">
+          <span class="cf-ref-date-date">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
+          <span class="cf-ref-date-text">{{ post.title }}</span>
+          {% if post.location %}
+          <i class="fa-solid fa-map-location-dot cf-ref-date-location"></i><span class="cf-ref-date-location"> {{ post.location }}</span>
+          {% endif %}
+        </div>
+      </a>
+    {% assign count = count | plus: 1 %}
+    {% endif %}
 {% endfor %}
+{% if count == 0 %}
+    <p>Im Moment sind keine Veranstaltungen geplant</p>
+{% endif %}
 
-<div class="cf-calendar" id='calendar'></div>
+<a href="{{ "/alle_termine" | relative_url }}" class="btn btn-primary cf-btn">Alle Termine</a>
+
+<hr class="cf-hr">
+<h3>Kalender:</h3>
+<div class="cf-calendar" id="calendar"></div>

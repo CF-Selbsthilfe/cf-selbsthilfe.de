@@ -31,23 +31,24 @@ current_year: 2022
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
 
 future: true
 
-paginate: 5
-paginate_path: "/beitraege/:num/"
+permalink: /:year/:month/:day/:title.html
+#permalink: pretty
 
-permalink: pretty
+pagination:
+  enabled: true
+  per_page: 5
+  trail:
+    before: 2
+    after: 2
 
 collections:
   pages:
-    output: true
-    permalink: /:name
-
-  dates:
     output: true
     permalink: /:name
   

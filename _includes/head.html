@@ -9,11 +9,43 @@
 
   <!-- calendar -->
   <link rel="stylesheet" href="{{ "/assets/css/fullcalendar/main.min.css" | relative_url }}">
+  {% if page.url == "/termine" %}
   <script src="{{ "/assets/js/fullcalendar/main.min.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/fullcalendar/locales/de.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/fullcalendar/locales/en-gb.js" | relative_url }}"></script>
-  <script src="{{ "/assets/js/cfcalendar.js" | relative_url }}"></script>
-  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var calendarEl = document.getElementById("calendar");
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      locale: "de",
+      initialView: "dayGridMonth",
+      headerToolbar: {
+        left: "title",
+        center: "",
+        right: "today prev,next"
+      },
+      height: "auto",
+
+      //googleCalendarApiKey: "AIzaSyCcND4QLv_PoDMw2DU1KKyiNH2YUExfG9o",
+      events: {
+        //googleCalendarId: "00e2e345637b6ac1fcd1c30a569419c2fcdc1b804b270b74f3cd7ef08b12a64d@group.calendar.google.com",
+        url: "{{ "/events" | relative_url }}"
+      },
+      eventDisplay: "block",
+      displayEventTime: true,
+      displayEventEnd: false,
+      html: true,
+      eventContent: function(arg){
+        return { html: "<span class='cf-event-time'>" + arg.timeText + "</span>" + "<span class='cf-event-title'>" + arg.event.title + "</span>" }
+      },
+      eventBackgroundColor: "#00a7eb",
+    });
+    calendar.render();
+  });
+  </script>
+
+  {% endif %}
+
   {%- feed_meta -%}
 
   <title>{{ page.title }} - {{ site.title }}</title>

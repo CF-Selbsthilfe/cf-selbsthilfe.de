@@ -1,42 +1,27 @@
 $calendar-padding: 0.2em;
 
 div.cf-calendar {
-    margin-left: 10px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
-.fc-header-toolbar {
-    margin-bottom: 0.5rem !important;
-}
 
 .fc-toolbar-title {
-    font-size: 1.3rem !important;
-    font-weight: medium !important;
+    font-size: 1.4rem !important;
+    font-weight: normal !important;
     margin-top: $calendar-padding !important;
-}
-
-.fc-today-button {
 }
 
 .fc-button {
     color: black !important;
     font-size: 1.1rem !important;
-    background-color: $lightgray !important;
+    background-color: $lightgrey !important;
     padding: $calendar-padding !important;
     border: 1px solid darkgrey !important;
     border-radius: 5px !important;
 }
 
-.fc-daygrid-day-events {
-    margin-bottom: 0px !important;
-    min-height: 1.4rem !important;
-}
-
 a.fc-daygrid-day-number {
     color: black;
     text-decoration: none;
-    padding: 0px 4px !important;
 }
 
 a.fc-col-header-cell-cushion {
@@ -44,6 +29,17 @@ a.fc-col-header-cell-cushion {
     text-decoration: none;
 }
 
-.fc-daygrid-day-bottom {
-    padding: 0px !important;
+span.cf-event-title {
+    color: white;
+    display: block;
+}
+
+span.cf-event-time {
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+.fc-daygrid-day-events {
+    min-height: 2.8rem !important;
 }

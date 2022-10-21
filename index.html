@@ -74,27 +74,36 @@ layout: default
         <div class="cf-callout">
             Letzte Beiträge
         </div>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.categories.beitrag limit:3 %}
         <a class="post-ref-link" href="{{ post.url | relative_url }}">
             <div class="cf-ref-post">
-                <span class="cf-ref-post-text">{{ post.title }}</span><br>
+                <span class="cf-ref-post-text">{{ post.title }}</span>
                 <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
             </div>
         </a>
         {% endfor %}
 
         <div class="cf-callout">
-            Letzte Termine
+            Neueste Termine
         </div>
         <!--<div class="cf-calendar" id='calendar'></div>-->
-        {% for post in site.dates limit:3 %}
-        <a class="post-ref-link" href="{{ post.url | relative_url }}">
-            <div class="cf-ref-post">
-                <span class="cf-ref-post-text">{{ post.title }}</span><br>
-                <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-            </div>
-        </a>
+        {% assign now = site.time | date: '%s' %}
+        {% assign count = 0 %}
+        {% for post in site.categories.termin reversed %}
+            {% assign postDate = post.date | date: '%s' %}
+            {% if postDate >= now and count < 3 %}
+            <a class="date-ref-link" href="{{ post.url | relative_url }}">
+                <div class="cf-ref-post">
+                <span class="cf-ref-post-text">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
+                <span class="cf-ref-post-date">{{ post.title }}</span>
+                </div>
+            </a>
+            {% assign count = count | plus: 1 %}
+            {% endif %}
         {% endfor %}
+        {% if count == 0 %}
+            <p>Im Moment sind keine Veranstaltungen geplant</p>
+        {% endif %}
 
         <div class="cf-callout">
             Sponsoren

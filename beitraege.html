@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Beiträge
+pagination:
+  enabled: true
+  category: beitrag
+  permalink: "/beitraege/:num/"
+  indexpage: "/beitraege"
 ---
 
 {% for post in paginator.posts %}

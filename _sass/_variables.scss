@@ -1,1 +1,21 @@
 $fa-font-path:        "../fonts/fontawesome";
+
+$pagination-color: black;
+$pagination-bg: white;
+$pagination-border-radius: 7px;
+$pagination-border-color: darken($lightgrey, 10%);
+
+$pagination-hover-color: white;
+$pagination-hover-bg: $cf-blue;
+
+$pagination-active-color: white;
+$pagination-active-bg: $cf-blue;
+
+
+$btn-border-radius: 7px;
+$btn-link-color: $cf-blue;
+$btn-link-hover-color: $lightgrey;
+
+$navbar-light-color: $cf-blue;
+$navbar-light-hover-color: $cf-blue-hover;
+$navbar-light-active-color: $cf-blue-hover;

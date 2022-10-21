@@ -1,0 +1,34 @@
+---
+layout: default
+title: Termine
+pagination:
+  enabled: true
+  category: termin
+  permalink: "/termine/:num/"
+  indexpage: "/alle_termine"
+---
+
+{% for post in paginator.posts %}
+  <div class="cf-post">
+  <div class="cf-post-date">
+    <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+  </div>
+  {% if post.location %}
+  <i class="fa-solid fa-map-location-dot"></i><span> {{ post.location }}</span>
+  {% endif %}
+  <hr class="cf-hr">
+  <a class="post-link" href="{{ post.url | relative_url }}">
+    <h3 class="cf-post-title">{{ post.title }}</h3>
+    <div class="cf-post-excerpt">
+      {% if post.excerpt_separator %}
+      {{ post.excerpt }}
+      {% else %}
+      {{ post.content | truncatewords: 60 }}
+      {% endif %}
+    </div>
+  </a>
+  </div>
+{% endfor %}
+
+{% include pagination.html %}
+
