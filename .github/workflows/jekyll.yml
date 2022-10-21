@@ -31,6 +31,7 @@ jobs:
           ### Enables caching. Similar to https://github.com/actions/cache.
           #
           format_output: true
+          prettier_ignore: "events.html"
 
           # key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           # restore-keys: ${{ runner.os }}-gems-
