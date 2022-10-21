@@ -3,9 +3,6 @@
 
 - name: Mukoviszidose
   dropdown:
-  - name: Mukoviszidose
-    link: /cf
-
   - name: Was ist Mukoviszidose?
     link: /cf/was-ist-mukoviszidose
 
@@ -20,11 +17,17 @@
 
 - name: Über Uns
   dropdown:
-    - name: Über Uns
-      link: /about/uns
-
     - name: Der Verein
       link: /about/der-verein
+
+    - name: Aufgaben
+      link: /about/aufgaben
+
+    - name: Ziele
+      link: /about/ziele
+    
+    - name: Mitglied werden
+      link: /about/mitglied
 
 - name: Beiträge
   link: /beitraege
@@ -37,16 +40,24 @@
 
 - name: Service und Links
   dropdown:
-    - name: Service und Links
-      link: /service
-
     - name: CF Ambulanzen
-      dropdown:
-        - name: CF Ambulanzen
-          link: /service/cf-ambulanzen
+      link: /service/ambulanzen
+    
+    - name: Ärzte
+      link: /service/aerzte
+    
+    - name: Physiotherapeuten
+      link: /service/physiotherapeuten
+    
+    - name: Reha
+      link: /service/reha
+    
+    - name: Hygienevorschriften für Veranstaltungen
+      link: /service/veranstaltungen
 
-        - name: J.W. Goethe-Universität
-          link: /service/cf-ambulanzen/goethe-universitaet
+    - name: Links
+      link: /service/links
+
 
 - name: Kontakt
   link: /kontakt
