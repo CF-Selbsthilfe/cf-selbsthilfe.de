@@ -6,7 +6,7 @@ permalink: /events
 [
     {% for post in site.categories.termin  %}
       {
-        "title": "\n{{ post.title }}",
+        "title": "{{ post.title }}",
         "start": "{{ post.date | date: "%Y-%m-%dT%H:%M" }}",
         "url": "{{ post.url | relative_url }}"
       }
