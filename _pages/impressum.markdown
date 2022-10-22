@@ -33,3 +33,12 @@ Unsere E-Mail-Adresse finden Sie oben im Impressum.
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
+
+<br>
+### Verwendete Bilder
+
+Doctor or Nurse Comforting Young Boy Child Patient  
+&copy; spotmatikphoto – Fotolia.com
+
+Mann am Meer breitet Arme aus  
+&copy; Tom-Hanisch – Fotolia.com
