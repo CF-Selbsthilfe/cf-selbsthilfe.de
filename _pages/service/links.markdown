@@ -23,5 +23,5 @@ Im Folgenden finden Sie Links zu weiteren Webseiten mit Informationen zu Mukovis
 {% for verband in site.data.landesverbaende %}
 <p><b>{{ verband.name }}</b><br>
 > <a href="{{ verband.link }}" class="cf-a">{{ verband.link }}</a>
-<p>
+</p>
 {% endfor %}
