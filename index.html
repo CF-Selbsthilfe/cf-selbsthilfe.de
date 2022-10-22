@@ -21,7 +21,7 @@ layout: default
         <div class="row">
             <div class="col-md">
                 <img src="{{ "assets/img/Kind-Krank-300x200.jpg" | relative_url }}"
-                    class="img-fluid float-start text-inline-start" alt="CF-Selbsthilfe Frankfurt e.V.">
+                    class="img-fluid float-sm-start text-inline-start" alt="CF-Selbsthilfe Frankfurt e.V.">
 
                 <p>
                     Am häufigsten erkennt man Mukoviszidose an den für die autosomal-rezessive Erbkrankheit typischsten
@@ -46,7 +46,7 @@ layout: default
         <div class="row">
             <div class="col-md">
                 <img src="{{ "assets/img/Mann-am-Meer-300x200.jpg" | relative_url }}"
-                    class="img-fluid float-end text-inline-end" alt="CF-Selbsthilfe Frankfurt e.V.">
+                    class="img-fluid float-sm-end text-inline-end" alt="CF-Selbsthilfe Frankfurt e.V.">
 
                 <p>
                     Familien in denen cystische Fibrose erblich bedingt aus den vergangenen Generationen bekannt ist,
@@ -64,53 +64,59 @@ layout: default
         <p><b>Das Team des CF-Selbsthilfe Frankfurt e.V.</b></p>
     </div>
     <div class="col-lg-4">
-        <div class="cf-callout">
-            Wir sind Mitglied im
-        </div>
-        {% for mem in site.data.member_in %}
-        <img src="{{ mem.img | relative_url }}" class="img-fluid cf-member" alt={{ mem.alt }}>
-        {% endfor %}
-
-        <div class="cf-callout">
-            Letzte Beiträge
-        </div>
-        {% for post in site.categories.beitrag limit:3 %}
-        <a class="post-ref-link" href="{{ post.url | relative_url }}">
-            <div class="cf-ref-post">
-                <span class="cf-ref-post-text">{{ post.title }}</span>
-                <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <div class="cf-sidebar-item">
+            <div class="cf-callout">
+                Wir sind Mitglied im
             </div>
-        </a>
-        {% endfor %}
-
-        <div class="cf-callout">
-            Veranstaltungen
+            {% for mem in site.data.member_in %}
+            <img src="{{ mem.img | relative_url }}" class="img-fluid cf-member" alt={{ mem.alt }}>
+            {% endfor %}
         </div>
-        <!--<div class="cf-calendar" id='calendar'></div>-->
-        {% assign now = site.time | date: '%s' %}
-        {% assign count = 0 %}
-        {% for post in site.categories.veranstaltung reversed %}
-            {% assign postDate = post.date | date: '%s' %}
-            {% if postDate >= now and count < 3 %}
-            <a class="date-ref-link" href="{{ post.url | relative_url }}">
+        <div class="cf-sidebar-item">
+            <div class="cf-callout">
+                Letzte Beiträge
+            </div>
+            {% for post in site.categories.beitrag limit:3 %}
+            <a class="post-ref-link" href="{{ post.url | relative_url }}">
                 <div class="cf-ref-post">
-                <span class="cf-ref-post-text">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
-                <span class="cf-ref-post-date">{{ post.title }}</span>
+                    <span class="cf-ref-post-text">{{ post.title }}</span>
+                    <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
                 </div>
             </a>
-            {% assign count = count | plus: 1 %}
-            {% endif %}
-        {% endfor %}
-        {% if count == 0 %}
-            <p>Im Moment sind keine Veranstaltungen geplant</p>
-        {% endif %}
-
-        <div class="cf-callout">
-            Sponsoren
+            {% endfor %}
         </div>
-        {% for sponsor in site.data.sponsors %}
-        <img src="{{ sponsor.img | relative_url }}" class="img-fluid cf-sponsor" alt={{ sponsor.alt }}>
-        {% endfor %}
 
+        <div class="cf-sidebar-item">
+            <div class="cf-callout">
+                Veranstaltungen
+            </div>
+            <!--<div class="cf-calendar" id='calendar'></div>-->
+            {% assign now = site.time | date: '%s' %}
+            {% assign count = 0 %}
+            {% for post in site.categories.veranstaltung reversed %}
+                {% assign postDate = post.date | date: '%s' %}
+                {% if postDate >= now and count < 3 %}
+                <a class="date-ref-link" href="{{ post.url | relative_url }}">
+                    <div class="cf-ref-post">
+                    <span class="cf-ref-post-text">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
+                    <span class="cf-ref-post-date">{{ post.title }}</span>
+                    </div>
+                </a>
+                {% assign count = count | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+            {% if count == 0 %}
+                <p>Im Moment sind keine Veranstaltungen geplant</p>
+            {% endif %}
+        </div>
+
+        <div class="cf-sidebar-item">
+            <div class="cf-callout">
+                Sponsoren
+            </div>
+            {% for sponsor in site.data.sponsors %}
+            <img src="{{ sponsor.img | relative_url }}" class="img-fluid cf-sponsor" alt={{ sponsor.alt }}>
+            {% endfor %}
+        </div>
     </div>
 </div>
