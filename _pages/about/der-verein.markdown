@@ -4,13 +4,7 @@ title: Der Verein
 permalink: /about/der-verein
 ---
 
-Die CF-Selbsthilfe Frankfurt e.V. hilft seit 1982 Menschen mit Mukoviszidose und deren Angehörigen bei der Bewältigung der Krankheit.
-
-Wir sind ehrenamtlich tätig.
-
-Die CF-Selbsthilfe Frankfurt e.V. finanziert ihre Arbeit durch öffentliche Gelder und Spenden.
-
-Wir geben Orientierungshilfen und zeigen Perspektiven auf – vertraulich und kostenfrei.
+Gegründet wurde der CF-Selbsthilfe Frankfurt e.V. im Jahr 1982 und hilft seitdem Menschen mit Mukoviszidose und deren Angehörigen bei der Bewältigung der Krankheit. Mittlerweile verfügen wir über eine aktive Mitgliederanzahl von über 300 Mitwirkenden.
 
 Wir helfen Menschen mit Mukoviszidose, mit der Krankheit zu leben. Wir unterstützen Sie darin, für sich neue Perspektiven zu entwickeln für ein Leben mit der Erkrankung. Hier setzt unser Beratungsprogramm an. Denn von der Diagnose Mukoviszidose ist das körperliche und seelische Befinden ebenso betroffen wie das Verhältnis zu Familie und Freunden. Auch das Berufsleben und die persönliche, finanzielle und sozialrechtliche Situation sind dadurch in Mitleidenschaft gezogen.
 
