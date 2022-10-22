@@ -47,6 +47,8 @@ span.cf-toggler-icon { width: 2em; height: 2em; }
 
 div.cf-callout { border-left-style: solid; border-left-color: #00a7eb; border-left-width: 8px; border-radius: 7px; background-color: #f2f2f2; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 2px; font-size: 1.1rem; font-weight: bold; }
 
+div.cf-sidebar-item { margin-bottom: 25px; }
+
 img.cf-member { margin-top: 1rem; margin-bottom: 1rem; margin-left: 10px; border: 1px solid #f2f2f2; }
 
 img.cf-sponsor { margin-top: 1rem; margin-bottom: 1rem; margin-left: 10px; border: 1px solid #f2f2f2; width: 33%; }
