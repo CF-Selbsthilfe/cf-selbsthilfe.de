@@ -78,7 +78,7 @@ oder alternativ
 </div>
 </div>
 
-Wir vom CF-Selbsthilfe Frankfurt e.V. sind ein gemeinnützig anerkannter Verein. Aufgrund dessen, gelten die allgemein steuerlichen Vergünstigungen des Spenden- und Zuwendungsrechts. Dies hat zur folge, dass wenn Sie sich für eine Spende uns gegenüber entscheiden, Sie die getätigte Ausgabe in Form von Sonderausgaben steuermindernd gelten machen können.
+Wir vom CF-Selbsthilfe Frankfurt e.V. sind ein gemeinnützig anerkannter Verein. Aufgrund dessen gelten die allgemein steuerlichen Vergünstigungen des Spenden- und Zuwendungsrechts. Dies hat zur folge, dass wenn Sie sich für eine Spende uns gegenüber entscheiden, Sie die getätigte Ausgabe in Form von Sonderausgaben steuermindernd gelten machen können.
 
 Die Verminderung der von Ihnen zu zahlenden Steuer bezieht sich nicht nur auf die Einkommenssteuer. Auch die Körperschaftssteuer und die Gewerbesteuer sind ebenfalls mit inbegriffen.
 
