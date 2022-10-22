@@ -108,7 +108,7 @@ td.contact-info {
 }
 
 td.contact-left {
-    padding-right: 2px;
+    padding-right: 5px;
 }
 
 button.cf-navbar-toggler {
@@ -238,11 +238,11 @@ div.cf-post-date {
 }
 
 div.cf-post-excerpt {
-    
+
     p {
         color: black;
     }
-    
+
     code {
         color: $cf-blue;
     }
@@ -376,4 +376,17 @@ span.date-location {
 
 td.date-left {
     padding-right: 10px;
+}
+
+div.cf-bankaccount {
+    border: 1px solid darken($lightgrey, 10%);
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    padding: 0 1rem;
+    width: fit-content;
+}
+
+div.col-md.cf-col {
+    flex: none;
+    width: fit-content;
 }
