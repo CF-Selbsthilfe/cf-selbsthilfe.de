@@ -3,7 +3,7 @@ $cf-blue-hover: #0074d8;
 $lightgrey: #f2f2f2;
 $darkgrey: #666666;
 
-$termin: #fc9992;
+$veranstaltung: #fc9992;
 $beitrag: #acfa9b;
 
 footer.site-footer {
@@ -28,10 +28,11 @@ a.nav-link.cf-nav-link {
 
 a.nav-link.cf-nav-link.active {
     color: white;
-    background-color: $cf-blue-hover !important;
 }
 
-
+li.nav-item.cf-nav-item.active {
+    background-color: $cf-blue-hover;
+}
 
 @media (min-width: 992px) {
     li.nav-item.cf-nav-item:first-child {
@@ -100,10 +101,14 @@ p.copyright-text {
     text-align: left !important;
 }
 
-div.contact-info {
+td.contact-info {
     font-size: 0.9rem;
     display: inline;
     color: black;
+}
+
+td.contact-left {
+    padding-right: 2px;
 }
 
 button.cf-navbar-toggler {
@@ -280,8 +285,8 @@ hr.cf-hr {
     border-top: 1px solid;
 }
 
-.termin {
-    background-color: $termin;
+.veranstaltung {
+    background-color: $veranstaltung;
 }
 
 .beitrag {
@@ -351,4 +356,20 @@ a.cf-btn {
     background-color: $cf-blue;
     border-color: $cf-blue;
     color: white;
+}
+
+span.date-title {
+    font-size: 1.5rem;
+}
+
+span.date-time {
+    display: block;
+}
+
+span.date-location {
+    display: block;
+}
+
+td.date-left {
+    padding-right: 10px;
 }

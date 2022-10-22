@@ -2,6 +2,7 @@
   link: /
 
 - name: Mukoviszidose
+  sublink: /cf/
   dropdown:
   - name: Was ist Mukoviszidose?
     link: /cf/was-ist-mukoviszidose
@@ -16,6 +17,7 @@
     link: /cf/behandlung-von-mukoviszidose
 
 - name: Über Uns
+  sublink: /about/
   dropdown:
     - name: Der Verein
       link: /about/der-verein
@@ -32,13 +34,14 @@
 - name: Beiträge
   link: /beitraege
 
-- name: Termine
-  link: /termine
+- name: Veranstaltungen
+  link: /veranstaltungen
 
 - name: Spenden
   link: /spenden
 
 - name: Service und Links
+  sublink: /service/
   dropdown:
     - name: CF Ambulanzen
       link: /service/ambulanzen
@@ -57,7 +60,6 @@
 
     - name: Links
       link: /service/links
-
 
 - name: Kontakt
   link: /kontakt

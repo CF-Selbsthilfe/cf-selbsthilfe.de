@@ -84,12 +84,12 @@ layout: default
         {% endfor %}
 
         <div class="cf-callout">
-            Neueste Termine
+            Veranstaltungen
         </div>
         <!--<div class="cf-calendar" id='calendar'></div>-->
         {% assign now = site.time | date: '%s' %}
         {% assign count = 0 %}
-        {% for post in site.categories.termin reversed %}
+        {% for post in site.categories.veranstaltung reversed %}
             {% assign postDate = post.date | date: '%s' %}
             {% if postDate >= now and count < 3 %}
             <a class="date-ref-link" href="{{ post.url | relative_url }}">

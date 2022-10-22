@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: beitrag
 title:  "Welcome to Jekyll!"
 date:   2022-09-30 20:45:05 +0200
 categories: beitrag update

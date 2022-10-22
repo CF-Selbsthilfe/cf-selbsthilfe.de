@@ -18,18 +18,18 @@
       <ul class="navbar-nav nav-fill w-100 cf-navbar">
         {% for item in site.data.navigation %}
           {% if item.dropdown %}
-            <li class="nav-item cf-nav-item dropdown">
-              <a class="nav-link cf-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item cf-nav-item dropdown{% if page.url contains item.sublink %} active{% endif %}">
+              <a class="nav-link cf-nav-link dropdown-toggle{% if page.url contains item.sublink %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ item.name }}
               </a>
               <ul class="dropdown-menu">
                 {% for subitem in item.dropdown %}
-                <li><a class="dropdown-item" href="{{ subitem.link | prepend: site.baseurl }}">{{ subitem.name }}</a></li>
+                <li><a class="dropdown-item{% if page.url == subitem.link %} active{% endif %}" href="{{ subitem.link | prepend: site.baseurl }}">{{ subitem.name }}</a></li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
-            <li class="nav-item cf-nav-item">
+            <li class="nav-item cf-nav-item{% if page.url == item.link %} active{% endif %}">
               <a class="nav-link cf-nav-link{% if page.url == item.link %} active" aria-current="page{% endif %}" href="{{ item.link |
                 prepend: site.baseurl }}">{{ item.name }}</a>
             </li>

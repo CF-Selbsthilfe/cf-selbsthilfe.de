@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<span class="date-title">Veranstaltung:</span>
+<h2 class="date-title">{{ page.title }}</h2>
+<table>
+    <tr>
+        <td><i class="fa-solid fa-calendar-days"></i></td>
+        <td class="date-left">Datum:</td>
+        <td>{{ page.date | date: "%d.%m.%Y" }}</td>
+      </tr>
+    <tr>
+        <td><i class="fa-solid fa-clock"></i></td>
+        <td class="date-left">Uhrzeit:</td>
+        <td>{{ page.date | date: "%H:%M" }}</td>
+    </tr>
+    {% if page.location %}
+    <tr>
+        <td><i class="fa-solid fa-map-location-dot"></i></td>
+        <td class="date-left">Ort:</td>
+        <td>{{ page.location }}</td>
+    </tr>
+    {% endif %}
+</table>
+<hr>
+{{ content }}
