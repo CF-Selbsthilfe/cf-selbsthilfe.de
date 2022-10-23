@@ -1,23 +1,23 @@
 - name: Frankfurter Rotkreuz Kliniken
   adress: |
-          Klinik für Pneumologie  
-          Königswarter Straße 8 - 16  
+          Klinik für Pneumologie
+          Königswarter Straße 8 - 16
           60316 Frankfurt am Main
   telefon: 069 4071 280
   fax: 069 4071 288
   mail: pneumologie@rotkreuzkliniken.de
-  web: www.rotkreuzkliniken.de
+  web: https://www.rotkreuzkliniken.de
 
 - name: Universitätsklinikum Frankfurt
   info: |
         Im Christiane Herzog CF-Zentrum Frankfurt werden Patienten mit Mukoviszidose (Cystischer Fibrose) betreut (Kinder und Erwachsene).
-        
+
         Wegen des ähnlichen Betreuungskonzeptes werden vereinzelt auch andere Patienten mit seltenen Lungenerkrankungen in dieser Ambulanz betreut.
   adress: |
-          Haus 18  
-          Theodor-Stern-Kai 7  
+          Haus 18
+          Theodor-Stern-Kai 7
           60590 Frankfurt am Main
   telefon: 069 6301-4232
   fax: 069 6301-7282
   mail: cf-zentrum-ffm@kgu.de
-  web: www.kgu.de
+  web: https://www.kgu.de
