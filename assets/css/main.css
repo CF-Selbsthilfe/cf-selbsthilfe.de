@@ -7536,4 +7536,6 @@ span.cf-event-time { color: white; font-weight: bold; display: block; }
 
 .fc-daygrid-day-events { min-height: 2.8rem !important; }
 
+div.fc-daygrid-event-harness { overflow: hidden; }
+
 /*# sourceMappingURL=main.css.map */
