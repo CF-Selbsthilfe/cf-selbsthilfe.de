@@ -12,7 +12,7 @@ Auf dieser Seite erhalten Sie einen Überblick der in der Region ansässigen Muk
 {{ klinik.info }}
 {% endif %}
 
-Adresse:
+Adresse:<br>
 {{ klinik.adress }}
 
 <table>
