@@ -24,10 +24,10 @@ Ziel ist es, einen funktionellen Normalzustand zu erreichen, diesen möglichst �
 * qualitätskontrollierte Behandlungszentren
 * psychosoziale Absicherung
 
-# Hilfe durch Medikamente, Inhalation und Krankengymnastik
+#### Hilfe durch Medikamente, Inhalation und Krankengymnastik
 Grundpfeiler der Behandlung sind die Sekretelimination (das Abhusten des Schleims) mit Hilfe von Krankengymnastik und Inhalationstherapie, die Therapie der häufigen Atemwegsinfektionen und die ausreichende Zufuhr von Energie, Enzymen und Vitaminen.
 
-# Lebensqualität und Lebenserwartung steigen kontinuierlich
+#### Lebensqualität und Lebenserwartung steigen kontinuierlich
 Diese Therapieformen sind in den letzten Jahren immer weiter verbessert worden, so dass Lebensqualität und Lebenserwartung bedeutend gestiegen sind.
 
 In Phasen einer starken Lungenfunktionseinschränkung mit Sauerstoffunterversorgung oder auch mit einem Anstieg von Kohlendioxid kommt eine Therapie mit Sauerstoff und/ oder eine nicht invasive Beatmung (NIV) hinzu. Als letzte Therapiemöglichkeit der Lungenbeteiligung ist die Lungentransplantation zu sehen.

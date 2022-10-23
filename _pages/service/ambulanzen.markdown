@@ -12,7 +12,7 @@ Auf dieser Seite erhalten Sie einen Überblick der in der Region ansässigen Muk
 {{ klinik.info }}
 {% endif %}
 
-Adresse:  
+Adresse:
 {{ klinik.adress }}
 
 <table>
@@ -22,11 +22,15 @@ Adresse:
     </tr>
     <tr>
         <td class="contact-left"><i class="fa-solid fa-fax"></i> Fax: </td>
-        <td>{{ klinik.fax }}</td> 
+        <td>{{ klinik.fax }}</td>
     </tr>
-     <tr>
+    <tr>
         <td class="contact-left"><i class="fa-solid fa-envelope"></i> Mail: </td>
-        <td><a href="mailto:{{ klinik.mail }}" class="cf-a">{{ klinik.mail }}</a></td> 
+        <td><a href="mailto:{{ klinik.mail }}" class="cf-a">{{ klinik.mail }}</a></td>
+    </tr>
+    <tr>
+        <td class="contact-left"><i class="fa-regular fa-globe"></i> Webseite: </td>
+        <td><a href="{{ klinik.web }}" class="cf-a">{{ klinik.web }}</a></td>
     </tr>
 </table>
 <br>

@@ -3,7 +3,7 @@ layout: default
 title: Veranstaltungen
 ---
 
-<h3>Neueste Termine:</h3>
+<h3>Neueste Veranstaltungen:</h3>
 {% assign now = site.time | date: '%s' %}
 {% assign count = 0 %}
 {% for post in site.categories.veranstaltung reversed %}

@@ -22,14 +22,15 @@
     - name: Der Verein
       link: /about/der-verein
 
-    - name: Aufgaben
-      link: /about/aufgaben
-
     - name: Ziele
       link: /about/ziele
-    
+
     - name: Mitglied werden
       link: /about/mitglied
+
+    - name: Satzung
+      link: /about/satzung
+
 
 - name: Beiträge
   link: /beitraege
@@ -45,13 +46,13 @@
   dropdown:
     - name: CF Ambulanzen
       link: /service/ambulanzen
-    
+
     - name: Hygienevorschriften für Veranstaltungen
       link: /service/veranstaltungen
 
     - name: Links
       link: /service/links
-    
+
     - name: Europäischer Expertenrat Mukoviszidose
       link: /service/expertenrat
 
