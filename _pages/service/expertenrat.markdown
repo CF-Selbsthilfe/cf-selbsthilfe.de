@@ -13,6 +13,8 @@ Nach Absenden Ihrer Frage wird diese inklusive der Antwort eines Experten ins En
 Folglich ensteht durch das Vorhaben eine internationale Expertendatenbank rund um Fragen zu cystischer Fibrose (CF), aus der jeder kostenfrei Informationen beziehen kann. Jeder Beitrag von Ihnen kann somit Folgegenerationen helfen, sich ein tiefgreifendes Expertenwissen anzueignen oder sich Informationen zu beschaffen.
 
 #### Das Archiv Expertenrat Mukoviszidose
-Das Archiv des Expertenrat Mukoviszidose beinhaltet eine Vielzahl von Fragen und Antworten, welche sich über die Jahre angesammelt haben. Diese können kostenfrei im Archiv von ecorn-CF unter der URL 
-<a href="https://ecorn-cf.eu/index.php?id=question-list&L=1" class="cf-a">https://ecorn-cf.eu/index.php?id=question-list&L=1</a>
- abgerufen werden.
+Das Archiv des Expertenrat Mukoviszidose beinhaltet eine Vielzahl von Fragen und Antworten, welche sich über die Jahre angesammelt haben. Diese können kostenfrei im Archiv von ecorn-CF unter der URL
+
+<a href="https://ecorn-cf.eu/index.php?id=question-list&L=1" class="cf-a">**https://ecorn-cf.eu/index.php?id=question-list&L=1**</a>
+
+abgerufen werden.
