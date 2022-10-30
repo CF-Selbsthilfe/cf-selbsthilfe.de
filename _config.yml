@@ -22,7 +22,7 @@ title: cf-selbsthilfe.de
 email: kontakt@cf-selbsthilfe.de
 description: >- # this means to ignore newlines until "baseurl:"
   Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.
-baseurl: "/cf-selbsthilfe" # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "http://www.cf-selbsthilfe.de/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CFSelbsthilfe
 year_created: 2022
@@ -52,7 +52,7 @@ collections:
   pages:
     output: true
     permalink: /:name
-  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
