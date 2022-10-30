@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Welcome to Jekyll! | cf-selbsthilfe.de</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Welcome to Jekyll!" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk." />
+<meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk." />
+<link rel="canonical" href="http://www.cf-selbsthilfe.de//2022/09/26/welcome-to-jekyll.html" />
+<meta property="og:url" content="http://www.cf-selbsthilfe.de//2022/09/26/welcome-to-jekyll.html" />
+<meta property="og:site_name" content="cf-selbsthilfe.de" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-26T18:45:05+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Welcome to Jekyll!" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-26T18:45:05+00:00","datePublished":"2022-09-26T18:45:05+00:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts &quot;Hi, #{name}&quot; end print_hi(&#39;Tom&#39;) #=&gt; prints &#39;Hi, Tom&#39; to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.","headline":"Welcome to Jekyll!","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.cf-selbsthilfe.de//2022/09/26/welcome-to-jekyll.html"},"url":"http://www.cf-selbsthilfe.de//2022/09/26/welcome-to-jekyll.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" type="image/png" href="/favicon.ico">
+
+  <!-- calendar -->
+  <link rel="stylesheet" href="/assets/css/fullcalendar/main.min.css">
+  <link type="application/atom+xml" rel="alternate" href="http://www.cf-selbsthilfe.de//feed.xml" title="cf-selbsthilfe.de" /><title>Welcome to Jekyll! - cf-selbsthilfe.de</title>
+</head>
+
+<body>
+  <header class="cf-header">
+    <div class="container py-3 cf-wrapper">
+      <nav class="navbar navbar-expand-lg p-0">
+  <div class="d-flex flex-column w-100">
+  <div class="row">
+    <div class="col">
+      <a href="/">
+      <img src="/assets/img/cf-selbsthilfe-logo-117x98px.png" class="text-start" alt="CF Selbsthilfe eV Frankfurt Logo">
+      </a>
+    </div>
+    <div class="col position-relative">
+      <button class="navbar-toggler position-absolute cf-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon cf-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div class="container p-0">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav nav-fill w-100 cf-navbar">
+        
+          
+            <li class="nav-item cf-nav-item">
+              <a class="nav-link cf-nav-link" href="/">Startseite</a>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item dropdown">
+              <a class="nav-link cf-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mukoviszidose
+              </a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="/cf/was-ist-mukoviszidose">Was ist Mukoviszidose?</a></li>
+                
+                <li><a class="dropdown-item" href="/cf/wer-bekommt-mukoviszidose">Wer bekommt Mukoviszidose?</a></li>
+                
+                <li><a class="dropdown-item" href="/cf/woran-erkennt-man-mukoviszidose">Woran erkennt man Mukoviszidose?</a></li>
+                
+                <li><a class="dropdown-item" href="/cf/behandlung-von-mukoviszidose">Behandlung von Mukoviszidose?</a></li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item dropdown">
+              <a class="nav-link cf-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Über Uns
+              </a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="/about/der-verein">Der Verein</a></li>
+                
+                <li><a class="dropdown-item" href="/about/ziele">Ziele</a></li>
+                
+                <li><a class="dropdown-item" href="/about/mitglied">Mitglied werden</a></li>
+                
+                <li><a class="dropdown-item" href="/about/satzung">Satzung</a></li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item">
+              <a class="nav-link cf-nav-link" href="/beitraege">Beiträge</a>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item">
+              <a class="nav-link cf-nav-link" href="/veranstaltungen">Veranstaltungen</a>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item">
+              <a class="nav-link cf-nav-link" href="/spenden">Spenden</a>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item dropdown">
+              <a class="nav-link cf-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Service und Links
+              </a>
+              <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="/service/ambulanzen">CF Ambulanzen</a></li>
+                
+                <li><a class="dropdown-item" href="/service/veranstaltungen">Hygienevorschriften für Veranstaltungen</a></li>
+                
+                <li><a class="dropdown-item" href="/service/links">Links</a></li>
+                
+                <li><a class="dropdown-item" href="/service/expertenrat">Europäischer Expertenrat Mukoviszidose</a></li>
+                
+              </ul>
+            </li>
+          
+        
+          
+            <li class="nav-item cf-nav-item">
+              <a class="nav-link cf-nav-link" href="/kontakt">Kontakt</a>
+            </li>
+          
+        
+
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>
+    </div>
+</header>
+  
+  <div class="container py-3 cf-wrapper">
+    <div class="container px-2 py-2">
+      <span class="date-title">Veranstaltung:</span>
+<h2 class="date-title">Welcome to Jekyll!</h2>
+<table>
+    <tr>
+        <td><i class="fa-solid fa-calendar-days"></i></td>
+        <td class="date-left">Datum:</td>
+        <td>26.09.2022</td>
+      </tr>
+    <tr>
+        <td><i class="fa-solid fa-clock"></i></td>
+        <td class="date-left">Uhrzeit:</td>
+        <td>18:45</td>
+    </tr>
+    
+</table>
+<hr>
+<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+    </div>
+  </div>
+
+  <footer class="cf-footer">
+  <div class="container py-3 cf-wrapper">
+    <div class="row">
+      <div class="col-md py-2">
+        <b>Kontakt Informationen</b>
+        <table>
+          <tr>
+              <td class="contact-left"><i class="fa-solid fa-phone"></i> </td>
+              <td>06172 - 898121</td>
+            </tr>
+          <tr>
+              <td class="contact-left"><i class="fa-solid fa-envelope"></i> </td>
+              <td><a href="mailto:kontakt@cf-selbsthilfe.de" class="cf-a">kontakt@cf-selbsthilfe.de</a></td> 
+          </tr>
+          <tr>
+              <td class="contact-left"><i class="fa-solid fa-location-dot"></i> </td>
+              <td class="contact-info">Philosophenweg 13, D-61350 Bad Homburg</td>
+          </tr>
+      </table>
+      </div>
+      <div class="col-md py-2">
+        <b>Soziale Netzwerke</b>
+        <p class="cf-socials">
+          <a href="https://twitter.com/CFSelbsthilfe" class="cf-socials"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+          <a href="https://www.facebook.com/people/CF-Selbsthilfe-Frankfurt-eV/100064438252726/" class="cf-socials"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+          <a href="/feed.xml" class="cf-socials"><i class="fa-solid fa-square-rss fa-2xl"></i></a>
+        </p>
+      </div>
+      <div class="col-md py-2">
+        <!--<b>Aktuelle Tweets</b>-->
+      </div>
+    </div>
+  </div>
+  <div class="cf-bottom-bar">
+    <div class="container py-3 cf-wrapper">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="copyright-text">
+            &copy 2022 - CF-Selbsthilfe Frankfurt e.V.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="footer-text">
+            <a class="cf-a" href="/impressum">Impressum</a> | <a class="cf-a" href="/datenschutzerkl%C3%A4rung">Datenschutzerklärung</a> | <a class="cf-a" href="/sitemap.xml">Sitemap</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+</footer>
+</body>
+
+</html>
