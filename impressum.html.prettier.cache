@@ -4,53 +4,59 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-    <title>Spenden | cf-selbsthilfe.de</title>
+    <title>Impressum | cf-selbsthilfe.de</title>
     <meta name="generator" content="Jekyll v4.2.2" />
-    <meta property="og:title" content="Spenden" />
+    <meta property="og:title" content="Impressum" />
     <meta property="og:locale" content="en_US" />
-    <meta name="description" content="Jede noch so kleine Spende hilft!" />
-    <meta
-      property="og:description"
-      content="Jede noch so kleine Spende hilft!"
+    <meta name="description" content="Impressum" />
+    <meta property="og:description" content="Impressum" />
+    <link
+      rel="canonical"
+      href="http://www.cf-selbsthilfe.de//cf-selbsthilfe/impressum"
     />
-    <link rel="canonical" href="http://www.cf-selbsthilfe.de//spenden" />
-    <meta property="og:url" content="http://www.cf-selbsthilfe.de//spenden" />
+    <meta
+      property="og:url"
+      content="http://www.cf-selbsthilfe.de//cf-selbsthilfe/impressum"
+    />
     <meta property="og:site_name" content="cf-selbsthilfe.de" />
     <meta property="og:type" content="article" />
     <meta
       property="article:published_time"
-      content="2022-10-30T16:43:58+00:00"
+      content="2022-10-24T05:39:59+00:00"
     />
     <meta name="twitter:card" content="summary" />
-    <meta property="twitter:title" content="Spenden" />
+    <meta property="twitter:title" content="Impressum" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "dateModified": "2022-10-30T16:43:58+00:00",
-        "datePublished": "2022-10-30T16:43:58+00:00",
-        "description": "Jede noch so kleine Spende hilft!",
-        "headline": "Spenden",
+        "dateModified": "2022-10-24T05:39:59+00:00",
+        "datePublished": "2022-10-24T05:39:59+00:00",
+        "description": "Impressum",
+        "headline": "Impressum",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "http://www.cf-selbsthilfe.de//spenden"
+          "@id": "http://www.cf-selbsthilfe.de//cf-selbsthilfe/impressum"
         },
-        "url": "http://www.cf-selbsthilfe.de//spenden"
+        "url": "http://www.cf-selbsthilfe.de//cf-selbsthilfe/impressum"
       }
     </script>
     <!-- End Jekyll SEO tag -->
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <link rel="stylesheet" href="/cf-selbsthilfe/assets/css/main.css" />
+    <link rel="icon" type="image/png" href="/cf-selbsthilfe/favicon.ico" />
 
     <!-- calendar -->
-    <link rel="stylesheet" href="/assets/css/fullcalendar/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="/cf-selbsthilfe/assets/css/fullcalendar/main.min.css"
+    />
     <link
       type="application/atom+xml"
       rel="alternate"
-      href="http://www.cf-selbsthilfe.de//feed.xml"
+      href="http://www.cf-selbsthilfe.de//cf-selbsthilfe/feed.xml"
       title="cf-selbsthilfe.de"
     />
-    <title>Spenden - cf-selbsthilfe.de</title>
+    <title>Impressum - cf-selbsthilfe.de</title>
   </head>
 
   <body>
@@ -60,9 +66,9 @@
           <div class="d-flex flex-column w-100">
             <div class="row">
               <div class="col">
-                <a href="/">
+                <a href="/cf-selbsthilfe/">
                   <img
-                    src="/assets/img/cf-selbsthilfe-logo-117x98px.png"
+                    src="/cf-selbsthilfe/assets/img/cf-selbsthilfe-logo-117x98px.png"
                     class="text-start"
                     alt="CF Selbsthilfe eV Frankfurt Logo"
                   />
@@ -86,7 +92,9 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-fill w-100 cf-navbar">
                   <li class="nav-item cf-nav-item">
-                    <a class="nav-link cf-nav-link" href="/">Startseite</a>
+                    <a class="nav-link cf-nav-link" href="/cf-selbsthilfe/"
+                      >Startseite</a
+                    >
                   </li>
 
                   <li class="nav-item cf-nav-item dropdown">
@@ -103,7 +111,7 @@
                       <li>
                         <a
                           class="dropdown-item"
-                          href="/cf/was-ist-mukoviszidose"
+                          href="/cf-selbsthilfe/cf/was-ist-mukoviszidose"
                           >Was ist Mukoviszidose?</a
                         >
                       </li>
@@ -111,7 +119,7 @@
                       <li>
                         <a
                           class="dropdown-item"
-                          href="/cf/wer-bekommt-mukoviszidose"
+                          href="/cf-selbsthilfe/cf/wer-bekommt-mukoviszidose"
                           >Wer bekommt Mukoviszidose?</a
                         >
                       </li>
@@ -119,7 +127,7 @@
                       <li>
                         <a
                           class="dropdown-item"
-                          href="/cf/woran-erkennt-man-mukoviszidose"
+                          href="/cf-selbsthilfe/cf/woran-erkennt-man-mukoviszidose"
                           >Woran erkennt man Mukoviszidose?</a
                         >
                       </li>
@@ -127,7 +135,7 @@
                       <li>
                         <a
                           class="dropdown-item"
-                          href="/cf/behandlung-von-mukoviszidose"
+                          href="/cf-selbsthilfe/cf/behandlung-von-mukoviszidose"
                           >Behandlung von Mukoviszidose?</a
                         >
                       </li>
@@ -146,23 +154,33 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="/about/der-verein"
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/about/der-verein"
                           >Der Verein</a
                         >
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/about/ziele">Ziele</a>
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/about/ziele"
+                          >Ziele</a
+                        >
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/about/mitglied"
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/about/mitglied"
                           >Mitglied werden</a
                         >
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/about/satzung"
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/about/satzung"
                           >Satzung</a
                         >
                       </li>
@@ -170,22 +188,25 @@
                   </li>
 
                   <li class="nav-item cf-nav-item">
-                    <a class="nav-link cf-nav-link" href="/beitraege"
+                    <a
+                      class="nav-link cf-nav-link"
+                      href="/cf-selbsthilfe/beitraege"
                       >Beiträge</a
                     >
                   </li>
 
                   <li class="nav-item cf-nav-item">
-                    <a class="nav-link cf-nav-link" href="/veranstaltungen"
+                    <a
+                      class="nav-link cf-nav-link"
+                      href="/cf-selbsthilfe/veranstaltungen"
                       >Veranstaltungen</a
                     >
                   </li>
 
-                  <li class="nav-item cf-nav-item active">
+                  <li class="nav-item cf-nav-item">
                     <a
-                      class="nav-link cf-nav-link active"
-                      aria-current="page"
-                      href="/spenden"
+                      class="nav-link cf-nav-link"
+                      href="/cf-selbsthilfe/spenden"
                       >Spenden</a
                     >
                   </li>
@@ -202,23 +223,33 @@
                     </a>
                     <ul class="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="/service/ambulanzen"
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/service/ambulanzen"
                           >CF Ambulanzen</a
                         >
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/service/veranstaltungen"
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/service/veranstaltungen"
                           >Hygienevorschriften für Veranstaltungen</a
                         >
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/service/links">Links</a>
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/service/links"
+                          >Links</a
+                        >
                       </li>
 
                       <li>
-                        <a class="dropdown-item" href="/service/expertenrat"
+                        <a
+                          class="dropdown-item"
+                          href="/cf-selbsthilfe/service/expertenrat"
                           >Europäischer Expertenrat Mukoviszidose</a
                         >
                       </li>
@@ -226,7 +257,11 @@
                   </li>
 
                   <li class="nav-item cf-nav-item">
-                    <a class="nav-link cf-nav-link" href="/kontakt">Kontakt</a>
+                    <a
+                      class="nav-link cf-nav-link"
+                      href="/cf-selbsthilfe/kontakt"
+                      >Kontakt</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -238,135 +273,75 @@
 
     <div class="container py-3 cf-wrapper">
       <div class="container px-2 py-2">
-        <h2 id="jede-noch-so-kleine-spende-hilft">
-          Jede noch so kleine Spende hilft!
-        </h2>
+        <h2 id="impressum">Impressum</h2>
 
+        <h4 id="angaben-gemäß--5-tmg">Angaben gemäß § 5 TMG</h4>
         <p>
-          Wir würden uns freuen, wenn Sie uns mit einer Spende unterstützen.
-          Jede Spende wird von uns einem gemeinnützigen Zweck zugeführt, welcher
-          unserem Verein hilft, die tägliche Arbeit zu erleichtern und im
-          Endeffekt allen Betroffenen mit dem Krankheitsbildes Mukoviszidose
-          (cystische Fibrose) zu Gute kommt.
+          CF-Selbsthilfe Frankfurt e.V.<br />
+          Philosophenweg 13<br />
+          61350 Bad Homburg
         </p>
 
         <p>
-          Wir, die CF-Selbsthilfe Frankfurt e.V. sind als gemeinnützige
-          Organisation anerkannt, sodass jede Ihrer Spende bis zu einem Betrag
-          iHv. 200€ in Verbindung mit einem Ihnen ausgestallten Einzahlungsbeleg
-          oder Kontoauszug inkl. Spendenquittung (Zuwendungsbestätigung) als
-          Umsatzreduktion bei Ihrem Finanzamt eingereicht werden kann.
+          Vereinsregister: VR 7998<br />
+          Registergericht: Amtsgericht Frankfurt
         </p>
 
         <p>
-          Selbstverständlich stellen wir Ihnen auch bei kleineren
-          Spendenbeträgen eine Zuwendungsbestätigung aus.
+          <strong>Vertreten durch:</strong><br />
+          Thomas Steinbauer
+        </p>
+
+        <h4 id="kontakt">Kontakt</h4>
+        <p>
+          Telefon: 06172 898121<br />
+          E-Mail: kontakt@cf-selbsthilfe.de
+        </p>
+
+        <h4 id="redaktionell-verantwortlich">Redaktionell verantwortlich</h4>
+        <p>
+          Niklas Conen<br />
+          Thomas Steinbauer<br />
+          (Erreichbar über die Adressen des Vereins)
+        </p>
+
+        <h4 id="eu-streitschlichtung">EU-Streitschlichtung</h4>
+        <p>
+          Die Europäische Kommission stellt eine Plattform zur
+          Online-Streitbeilegung (OS) bereit:
+          <a
+            href="https://ec.europa.eu/consumers/odr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >https://ec.europa.eu/consumers/odr/</a
+          ><br />
+          Unsere E-Mail-Adresse finden Sie oben im Impressum.
+        </p>
+
+        <h4 id="verbraucherstreitbeilegunguniversalschlichtungsstelle">
+          Verbraucher­streit­beilegung/Universal­schlichtungs­stelle
+        </h4>
+        <p>
+          Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
+          vor einer Verbraucherschlichtungsstelle teilzunehmen.
         </p>
 
         <p>
-          Sollten Sie vorhaben eine Spende zu tätigen, welche in regelmäßigem
-          Abstand in unserem Verein eintrifft, so haben Sie die Wahl zwischen
-          einer regelmäßig stattfindenden Spendenbescheinigung oder einer
-          Gesamtspendenbescheinigung, welche alle Ihre Spenden aus dem letzten
-          Vorjahr insgesamt bescheinigt.
+          Quelle:
+          <a href="https://www.e-recht24.de">https://www.e-recht24.de</a>
         </p>
 
-        <h2 id="spendenkonten-des-cf-selbsthilfe-frankfurt-ev">
-          Spendenkonten des CF-Selbsthilfe Frankfurt e.V.:
-        </h2>
+        <p><br /></p>
+        <h3 id="verwendete-bilder">Verwendete Bilder</h3>
 
         <p>
-          Um eine Überweisung in Form einer Spende uns gegenüber zu tätigen,
-          nutzen sie unsere BIC und IBAN.
-        </p>
-
-        <div class="cf-bankaccount">
-          <span>Kreditinstitut: Commerzbank</span>
-          <div class="row">
-            <div class="col-md cf-col">
-              <table>
-                <tr>
-                  <td class="contact-left">Konto Nr.:</td>
-                  <td>00645654600</td>
-                </tr>
-                <tr>
-                  <td class="contact-left">BLZ:</td>
-                  <td>50080000</td>
-                </tr>
-              </table>
-            </div>
-            <div class="col-md cf-col">
-              <table>
-                <tr>
-                  <td class="contact-left">BIC:</td>
-                  <td>DRESDEFFXXX</td>
-                </tr>
-                <tr>
-                  <td class="contact-left">IBAN:</td>
-                  <td>DE72 5008 0000 0645 6546 00</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-        <p>oder alternativ</p>
-
-        <div class="cf-bankaccount">
-          <span>Kreditinstitut: Volksbank</span>
-          <div class="row">
-            <div class="col-md cf-col">
-              <table>
-                <tr>
-                  <td class="contact-left">Konto Nr.:</td>
-                  <td>6100800088</td>
-                </tr>
-                <tr>
-                  <td class="contact-left">BLZ:</td>
-                  <td>50190000</td>
-                </tr>
-              </table>
-            </div>
-            <div class="col-md cf-col">
-              <table>
-                <tr>
-                  <td class="contact-left">BIC:</td>
-                  <td>FFVBDEFF</td>
-                </tr>
-                <tr>
-                  <td class="contact-left">IBAN:</td>
-                  <td>DE92 5019 0000 6100 8000 88</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <p>
-          Wir vom CF-Selbsthilfe Frankfurt e.V. sind ein gemeinnützig
-          anerkannter Verein. Aufgrund dessen gelten die allgemein steuerlichen
-          Vergünstigungen des Spenden- und Zuwendungsrechts. Dies hat zur folge,
-          dass wenn Sie sich für eine Spende uns gegenüber entscheiden, Sie die
-          getätigte Ausgabe in Form von Sonderausgaben steuermindernd gelten
-          machen können.
+          Doctor or Nurse Comforting Young Boy Child Patient<br />
+          © spotmatikphoto – Fotolia.com
         </p>
 
         <p>
-          Die Verminderung der von Ihnen zu zahlenden Steuer bezieht sich nicht
-          nur auf die Einkommenssteuer. Auch die Körperschaftssteuer und die
-          Gewerbesteuer sind ebenfalls mit inbegriffen.
-        </p>
-
-        <p>
-          Bislang war es für Organisationen üblich, bei Spenden die den Betrag
-          von 100€ übersteigen, eine Zuwendungsbestätigung nach rechtlichen
-          Vorgaben auszustellen um eine steuerliche Abzugsfähigkeit zu
-          ermöglichen. Durch Verabschiedung des „Gesetz zur weiteren Stärkung
-          des bürgerschaftlichen Engagements“ wurde am 21. September 2007 die
-          Bemessungsbeitragsgrenze für Spendenzahlungen auf 200€ angehoben. Für
-          Sie als Spender hat dies den Vorteil, dass Sie jede Spende bis zu dem
-          Betrag von 200€ mit einer entsprechenden Vorlage z.B in Form des
-          Überweisungsträgers in Ihrer Steuererklärung steuermindernd verbuchen
-          können.
+          Mann am Meer breitet Arme aus<br />
+          © Tom-Hanisch – Fotolia.com
         </p>
       </div>
     </div>
@@ -412,7 +387,7 @@
                 class="cf-socials"
                 ><i class="fa-brands fa-square-facebook fa-2xl"></i
               ></a>
-              <a href="/feed.xml" class="cf-socials"
+              <a href="/cf-selbsthilfe/feed.xml" class="cf-socials"
                 ><i class="fa-solid fa-square-rss fa-2xl"></i
               ></a>
             </p>
@@ -432,17 +407,17 @@
             </div>
             <div class="col-md-6">
               <p class="footer-text">
-                <a class="cf-a" href="/impressum">Impressum</a> |
-                <a class="cf-a" href="/datenschutzerkl%C3%A4rung"
+                <a class="cf-a" href="/cf-selbsthilfe/impressum">Impressum</a> |
+                <a class="cf-a" href="/cf-selbsthilfe/datenschutzerkl%C3%A4rung"
                   >Datenschutzerklärung</a
                 >
-                | <a class="cf-a" href="/sitemap.xml">Sitemap</a>
+                | <a class="cf-a" href="/cf-selbsthilfe/sitemap.xml">Sitemap</a>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <script src="/assets/js/bootstrap.bundle.min.js"></script>
+      <script src="/cf-selbsthilfe/assets/js/bootstrap.bundle.min.js"></script>
     </footer>
   </body>
 </html>

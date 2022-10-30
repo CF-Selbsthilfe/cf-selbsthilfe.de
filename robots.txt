@@ -1,1 +1,1 @@
-Sitemap: http://www.cf-selbsthilfe.de//cf-selbsthilfe/sitemap.xml
+Sitemap: http://www.cf-selbsthilfe.de//sitemap.xml
