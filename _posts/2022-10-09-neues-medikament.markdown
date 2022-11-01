@@ -1,6 +1,6 @@
 ---
 layout: beitrag
-title:  "Tino Mukolino - ein Buch für Kinder mit Mukoviszidose"
+title:  "Dreifach gegen Mukoviszidose"
 date:   2022-09-08 15:00:00 +0200
 categories: beitrag
 ---
