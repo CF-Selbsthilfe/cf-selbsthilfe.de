@@ -1,7 +1,7 @@
 ---
 layout: beitrag
 title:  "Mitarbeiter:in des Psychosozialen Dienstes/Sozialarbeiter:in/Sozialpädagog:in im Uniklinikum Frankfurt (Christiane Herzog CF-Zentrum) gesucht"
-date:   2022-07-18 15:00:00 +0200
+date:   2022-07-18 15:00:00
 categories: beitrag Uniklinikum
 ---
 
