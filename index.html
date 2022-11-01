@@ -79,7 +79,7 @@ layout: default
             {% for post in site.categories.beitrag limit:3 %}
             <a class="post-ref-link" href="{{ post.url | relative_url }}">
                 <div class="cf-ref-post">
-                    <span class="cf-ref-post-text">{{ post.title }}</span>
+                    <span class="cf-ref-post-text">{{ post.title | truncate: 74}}</span>
                     <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
                 </div>
             </a>
@@ -106,7 +106,7 @@ layout: default
                 {% endif %}
             {% endfor %}
             {% if count == 0 %}
-                <p>Im Moment sind keine Veranstaltungen geplant</p>
+                <p class="no-events">Im Moment sind keine Veranstaltungen geplant</p>
             {% endif %}
         </div>
 

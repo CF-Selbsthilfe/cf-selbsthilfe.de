@@ -23,7 +23,7 @@ pagination:
       {% if post.excerpt_separator %}
       {{ post.excerpt }}
       {% else %}
-      {{ post.content | truncatewords: 60 }}
+      {{ post.content | truncatewords: 30 }}
       {% endif %}
     </div>
   </a>

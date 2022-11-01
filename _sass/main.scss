@@ -180,6 +180,7 @@ div.cf-ref-post {
     padding-left: 8px;
     border: 1px solid darken($lightgrey, 10%);
     border-radius: 7px;
+    overflow: hidden;
 }
 
 a.post-ref-link {
@@ -354,6 +355,10 @@ span.cf-ref-date-date{
 
 .cf-ref-date-location {
     color: black;
+}
+
+p.no-events {
+    margin-left: 10px;
 }
 
 a.cf-btn {
