@@ -28,6 +28,8 @@ twitter_username: CFSelbsthilfe
 year_created: 2022
 current_year: 2022
 
+timezone: DE
+
 # Build settings
 plugins:
   - jekyll-feed

@@ -1,13 +1,13 @@
 ---
 layout: veranstaltung
 title: 'Einladung zum Benefizkonzert "Kunst im Garten"'
-date: 2022-07-24 15:00:00 +0200
+date: 2022-07-24 15:00:00
 categories: veranstaltung
 location: Heftricher Weg, Garten 23, 65527 Oberjosbach
 ---
 Gerne leiten wir folgende Einladung weiter:
 
-​
+
 **Einladung zum Benefizkonzert “Kunst im Garten“**<br>
 zu Gunsten der Mukoviszidose Selbsthilfe, Ffm
 
