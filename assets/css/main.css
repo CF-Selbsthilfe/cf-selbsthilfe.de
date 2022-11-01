@@ -61,7 +61,7 @@ img.text-inline-end { margin-left: 5px; }
 
 img.text-inline-center { margin-top: 1rem; margin-bottom: 1rem; }
 
-div.cf-ref-post { margin-top: 5px; margin-bottom: 5px; margin-left: 10px; padding-left: 8px; border: 1px solid #d9d9d9; border-radius: 7px; }
+div.cf-ref-post { margin-top: 5px; margin-bottom: 5px; margin-left: 10px; padding-left: 8px; border: 1px solid #d9d9d9; border-radius: 7px; overflow: hidden; }
 
 a.post-ref-link { text-decoration: none; }
 
@@ -128,6 +128,8 @@ span.cf-ref-date-text { color: black; display: block; }
 span.cf-ref-date-date { color: black; font-weight: bold; display: block; }
 
 .cf-ref-date-location { color: black; }
+
+p.no-events { margin-left: 10px; }
 
 a.cf-btn { background-color: #00a7eb; border-color: #00a7eb; color: white; }
 
