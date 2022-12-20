@@ -10,29 +10,31 @@ pagination:
 
 {% for post in paginator.posts %}
   <div class="cf-post">
-  <div class="cf-post-date">
-    <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-  </div>
-  {% if post.categories %}
-  <ul class="no-bullets">
-  {% for category in post.categories %}
-  <li class="cf-post-category {{ category }}">
-    <span class="cf-post-category">{{ category | capitalize }}</span>
-  </li>
-  {% endfor %}
-  </ul>
-  {% endif %}
-  <hr class="cf-hr">
-  <a class="post-link" href="{{ post.url | relative_url }}">
-    <h3 class="cf-post-title">{{ post.title }}</h3>
-    <div class="cf-post-excerpt">
-      {% if post.excerpt_separator %}
-      {{ post.excerpt }}
-      {% else %}
-      {{ post.content | truncatewords: 30 }}
-      {% endif %}
+    <div class="cf-post-date">
+      <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
     </div>
-  </a>
+
+    {% if post.categories %}
+    <ul class="no-bullets">
+    {% for category in post.categories %}
+    <li class="cf-post-category {{ category }}">
+      <span class="cf-post-category">{{ category | capitalize }}</span>
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    <hr class="cf-hr">
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <h3 class="cf-post-title">{{ post.title }}</h3>
+      <div class="cf-post-excerpt">
+        {% if post.excerpt_separator %}
+        {{ post.excerpt | regex_replace: "<img([\w\W]+?)/>", ""}}
+        {% else %}
+        {{ post.content | regex_replace: "<img([\w\W]+?)/>", "" | truncatewords: 30 }}
+        {% endif %}
+      </div>
+    </a>
   </div>
 {% endfor %}
 

@@ -26,7 +26,7 @@ baseurl:  # the subpath of your site, e.g. /blog
 url: "http://www.cf-selbsthilfe.de/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CFSelbsthilfe
 year_created: 2022
-current_year: 2022
+current_year: 2023
 
 timezone: DE
 
@@ -36,6 +36,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-regex-replace
 
 future: true
 
