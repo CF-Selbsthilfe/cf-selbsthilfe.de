@@ -98,8 +98,9 @@ layout: default
                 {% if postDate >= now and count < 3 %}
                 <a class="date-ref-link" href="{{ post.url | relative_url }}">
                     <div class="cf-ref-post{% if post.important %} important{% endif %}">
-                    <span class="cf-ref-post-text">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
-                    <span class="cf-ref-post-date">{{ post.title }}</span>
+                    <span class="cf-ref-post-text">{{ post.title }}</span>
+                    <span class="cf-ref-post-date">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
+
                     </div>
                 </a>
                 {% assign count = count | plus: 1 %}

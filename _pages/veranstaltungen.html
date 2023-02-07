@@ -11,8 +11,8 @@ title: Veranstaltungen
     {% if postDate >= now and count < 3 %}
       <a class="date-ref-link" href="{{ post.url | relative_url }}">
         <div class="cf-ref-date">
-          <span class="cf-ref-date-date">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
-          <span class="cf-ref-date-text">{{ post.title }}</span>
+          <span class="cf-ref-date-date">{{ post.title }}</span>
+          <span class="cf-ref-date-text">{{ post.date | date: "%d.%m.%Y %H:%M" }}</span>
           {% if post.location %}
           <i class="fa-solid fa-map-location-dot cf-ref-date-location"></i><span class="cf-ref-date-location"> {{ post.location }}</span>
           {% endif %}
