@@ -10,5 +10,5 @@ Aus diesem Grund suchen wir Sie als neue Mitglieder oder Anteilnehmende, die uns
 
 #### Mitgliedschaft
 
-Die Mitgliedschaft im CF-Selbsthilfe Frankfurt e.V. kostet derzeit 60€ jährlich.<br>
-Um sich als Mitglied zu bewerben schreiben Sie uns bitte eine E-Mail an <a href="mailto:kontakt@cf-selbsthilfe.de" class="cf-a">kontakt@cf-selbsthilfe.de</a>.
+Die Mitgliedschaft im CF-Selbsthilfe Frankfurt e.V. ist kostenfrei.<br>
+Um sich als Mitglied zu bewerben, schreiben Sie uns bitte eine E-Mail an <a href="mailto:kontakt@cf-selbsthilfe.de" class="cf-a">kontakt@cf-selbsthilfe.de</a>.
