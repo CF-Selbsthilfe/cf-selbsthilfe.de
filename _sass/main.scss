@@ -266,6 +266,16 @@ a.cf-a:hover {
     text-decoration: underline;
 }
 
+a.cf-a-highlight {
+    color: $cf-blue;
+    text-decoration: underline;
+}
+
+a.cf-a-highlight:hover {
+    color: $cf-blue-hover;
+    text-decoration: underline;
+}
+
 li.cf-post-category {
     border-radius: 7px;
     border: 1px solid darken($lightgrey, 10%);
