@@ -6,15 +6,15 @@
         <table>
           <tr>
               <td class="contact-left"><i class="fa-solid fa-phone"></i> </td>
-              <td>06172 - 898121</td>
-            </tr>
+              <td>{{ site.phone }}</td>
+          </tr>
           <tr>
               <td class="contact-left"><i class="fa-solid fa-envelope"></i> </td>
-              <td><a href="mailto:kontakt@cf-selbsthilfe.de" class="cf-a">kontakt@cf-selbsthilfe.de</a></td> 
+              <td><a href="mailto:{{ site.email }}" class="cf-a">{{ site.email }}</a></td>
           </tr>
           <tr>
               <td class="contact-left"><i class="fa-solid fa-location-dot"></i> </td>
-              <td class="contact-info">Philosophenweg 13, D-61350 Bad Homburg</td>
+              <td class="contact-info">{{ site.address | replace: "<br>", "," }}</td>
           </tr>
       </table>
       </div>

@@ -4,7 +4,7 @@ layout: default
 
 ## Datenschutzerklärung
 ### 1. Datenschutz auf einen Blick
-#### Allgemeine Hinweise 
+#### Allgemeine Hinweise
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
 passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
 persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen
@@ -15,13 +15,13 @@ Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
 ##### Wer ist verantwortlich für die Datenerfassung auf dieser Website?
 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten
 können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.
- 
+
 ##### Wie erfassen wir Ihre Daten?
 Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um
 Daten handeln, die Sie in ein Kontaktformular eingeben.
 Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere ITSysteme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit
 des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
- 
+
 ##### Wofür nutzen wir Ihre Daten?
 Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere
 Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
@@ -57,10 +57,10 @@ Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies z
 Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
 Wir setzen folgende(n) Hoster ein:
 
-GitHub Inc.  
-88 Colin P Kelly Jr St  
-San Francisco, CA 94107  
-United States
+GitHub Inc.<br>
+88 Colin P Kelly Jr St<br>
+San Francisco, CA 94107<br>
+United States<br>
 
 ### 3. Allgemeine Hinweise und Pflicht&shy;informationen
 #### Datenschutz
@@ -78,12 +78,11 @@ möglich.
 #### Hinweis zur verantwortlichen Stelle
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-CF-Selbsthilfe Frankfurt e.V.  
-Philosophenweg 13  
-61350 Bad Homburg
+CF-Selbsthilfe Frankfurt e.V.<br>
+{{ site.address }}
 
-Telefon: 06172 898121  
-E-Mail: kontakt@cf-selbsthilfe.de
+Telefon: {{ site.phone }}<br>
+E-Mail: {{ site.email }}
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über
 die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)

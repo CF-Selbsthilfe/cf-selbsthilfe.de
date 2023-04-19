@@ -19,7 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: cf-selbsthilfe.de
+chairman: Micha Häckel
 email: kontakt@cf-selbsthilfe.de
+phone: 06172 - 898121
+address: Brückenstr. 8a<br>
+  65719 Hofheim am Taunus
 description: >- # this means to ignore newlines until "baseurl:"
   Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.
 baseurl:  # the subpath of your site, e.g. /blog
