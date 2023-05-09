@@ -33,7 +33,7 @@ ul.no-bullets { list-style-type: none; padding: 0; margin: 0; }
 
 p.footer-text { font-size: 0.8rem; text-align: left; color: black; }
 
-@media (min-width: 992px) { p.footer-text { text-align: right; } }
+@media (min-width: 768px) { p.footer-text { text-align: right; } }
 
 p.copyright-text { font-size: 0.8rem; text-align: left !important; }
 
