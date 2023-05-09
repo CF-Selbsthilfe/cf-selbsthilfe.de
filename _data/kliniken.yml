@@ -1,7 +1,7 @@
 - name: Frankfurter Rotkreuz Kliniken
   adress: |
-          Klinik für Pneumologie
-          Königswarter Straße 8 - 16
+          Klinik für Pneumologie<br>
+          Königswarter Straße 8 - 16<br>
           60316 Frankfurt am Main
   telefon: 069 4071 280
   fax: 069 4071 288
@@ -14,8 +14,9 @@
 
         Wegen des ähnlichen Betreuungskonzeptes werden vereinzelt auch andere Patienten mit seltenen Lungenerkrankungen in dieser Ambulanz betreut.
   adress: |
-          Haus 18
-          Theodor-Stern-Kai 7
+          Haus 23<br>
+          Pneumologie<br>
+          Theodor-Stern-Kai 7<br>
           60590 Frankfurt am Main
   telefon: 069 6301-4232
   fax: 069 6301-7282
