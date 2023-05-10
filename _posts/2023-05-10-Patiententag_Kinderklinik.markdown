@@ -10,11 +10,10 @@ Für den Mukoviszidose-Monat Mai hat der Mukoviszidose e.V. letztes Jahr erstmal
 
 **Wir sind glücklich, dass Ihr für unsere Kinder da seid!**
 
-<figure class="figure d-block text-center">
+<figure class="figure d-block text-center mx-auto" style="max-width: 600px;">
 <img src="{{ "assets/img/posts/patiententag2023.jpeg" | relative_url }}"
-     class="img-fluid"
+     class="figure-img img-fluid rounded"
      alt="Emilia Zeller (Selbsthilfe), Emma Unkel (Patientin) danken Marion Schwarzmann, Dr. Olaf Eickmeier und Helen Charis Nöth von der CF-Kinderambulanz"
-     style="max-width: 600px;"
      >
 <figcaption class="figure-caption mx-auto" style="max-width: 600px">(v. l. n. r. Emilia Zeller (Selbsthilfe), Emma Unkel (Patientin), sowie Marion Schwarzmann, Dr. Olaf Eickmeier und Helen Charis Nöth von der CF-Kinderambulanz)</figcaption>
 </figure>
