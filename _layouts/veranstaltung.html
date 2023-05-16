@@ -25,3 +25,11 @@ layout: default
 </table>
 <hr>
 {{ content }}
+
+{% if page.img %}
+<img src="{{ page.img | relative_url }}"
+     class="img-fluid mx-auto d-block w-100"
+     alt="{{ page.img_alt }}"
+     style="max-width: 600px;"
+     >
+{% endif %}

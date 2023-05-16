@@ -8,7 +8,24 @@ pagination:
   indexpage: "/alle_veranstaltungen"
 ---
 
+{% assign future = false %}
+{% assign past = false %}
+
 {% for post in paginator.posts %}
+
+{% if post.date >= site.time and paginator.page == 1 %}
+{% unless future %}
+<h2 class=>Kommende Veranstaltungen</h2>
+{% assign future = true %}
+{% endunless %}
+{% endif %}
+
+{% if post.date < site.time and paginator.page == 1 %}
+{% unless past %}
+<h2 class="cf-past-events">Vergangene Veranstaltungen</h2>
+{% assign past = true %}
+{% endunless %}
+{% endif %}
   <div class="cf-post">
   <div class="cf-post-date">
     <span class="cf-post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
