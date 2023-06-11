@@ -65,14 +65,14 @@ zugunsten der CF-Selbsthilfe Frankfurt e.V.</p>
       ab 14:30 Uhr (Einlass)
     </div>
     <div class="col-sm-4 sm-text-switch">
-      Beginn des Konzerts um 16:00 Uhr
+      Beginn des Konzertes um 16:00 Uhr
     </div>
   </div>
 </div>
 
 <p class="text-center less-large-purple">Schlager aus den 1930er Jahren</p>
 <p class="text-center">
-mit <b>Yvonne Kluin</b> (Sopran), <b>Michael Renke (Tenor)</b><br>
+mit <b>Yvonne Kluin</b> (Sopran), <b>Michael Renke</b> (Tenor)<br>
 und <b>Jürgen Schmidt</b> (Musikalische Leitung)
 </p>
 
