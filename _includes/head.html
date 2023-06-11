@@ -43,7 +43,12 @@
     calendar.render();
   });
   </script>
+  {% endif %}
 
+  {% if page.pagestyle %}
+  <style>
+    {{ page.pagestyle }}
+  </style>
   {% endif %}
 
   {%- feed_meta -%}
