@@ -44,6 +44,8 @@ Auch in diesem Jahr wird ein Benefizkonzert “Kunst im Garten” zu Gunsten der
 
 Wer schon im letzten Jahr das von “unserem” Physiotherapeuten Michael Renke initiierte Konzert besucht hat, weiß, was für hervorragende Darbietungen in wunderschöner Ambiente zu erwarten sind.
 
+<!--more-->
+
 <div style="border: 1px solid darkgrey; padding: 1rem">
 
 <p class="text-center large-black">Musik und Kunst im Garten<br>
