@@ -49,7 +49,7 @@ Um eine Überweisung in Form einer Spende uns gegenüber zu tätigen, nutzen sie
 oder alternativ
 
 <div class="cf-bankaccount">
-<span>Kreditinstitut: Volksbank</span>
+<span>Kreditinstitut: Frankfurter Volksbank Rhein/Main</span>
 <div class="row">
     <div class="col-md cf-col">
         <table>
