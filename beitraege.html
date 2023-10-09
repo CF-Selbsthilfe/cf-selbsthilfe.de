@@ -29,9 +29,9 @@ pagination:
       <h3 class="cf-post-title">{{ post.title }}</h3>
       <div class="cf-post-excerpt">
         {% if post.excerpt_separator %}
-        {{ post.excerpt | regex_replace: "<img([\w\W]+?)/>", ""}}
+        {{ post.excerpt | regex_replace: "<img([\w\W]+?)/>", "" | strip_html | markdownify }}
         {% else %}
-        {{ post.content | regex_replace: "<img([\w\W]+?)/>", "" | truncatewords: 30 }}
+        {{ post.content | regex_replace: "<img([\w\W]+?)/>", "" | truncatewords: 30 | strip_html | suffix: "..." | markdownify }}
         {% endif %}
       </div>
     </a>
