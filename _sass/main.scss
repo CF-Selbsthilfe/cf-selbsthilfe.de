@@ -10,6 +10,11 @@ footer.site-footer {
     border-top: 1px solid black;
 }
 
+img.cf-logo {
+    max-width: 120px;
+    padding: 5px;
+}
+
 ul.navbar-nav.cf-navbar {
     --bs-nav-link-padding-y: 0.8rem
 }
