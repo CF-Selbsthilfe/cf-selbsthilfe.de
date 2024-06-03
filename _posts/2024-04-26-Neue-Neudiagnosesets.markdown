@@ -1,6 +1,6 @@
 ---
 layout: beitrag
-title:  "Neue Neudiagonse-Sets"
+title:  "Neue Neudiagnose-Sets"
 date:   2024-04-26 12:00:00
 categories: beitrag Uniklinikum
 ---
