@@ -418,3 +418,128 @@ div.col-md.cf-col {
 h2.cf-past-events {
     margin-top: 1rem;
 }
+
+audio.cf-player {
+    width: 100%;
+    max-height: 60px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+div.cf-player-box {
+    display: flex;
+    height: 130px;
+    margin: 10px auto;
+    width: 80%;
+    border: 2px solid $cf-blue;
+    border-radius: 7px;
+    background-color: $lightgrey;
+    padding: 0 5px;
+}
+
+h3.cf-player-title {
+    color: black;
+    padding-top: 10px;
+    white-space: nowrap;
+    align-self: flex-start;
+}
+
+h3.cf-player-title:hover {
+    animation: marquee 10s linear infinite;
+    animation-delay: 0.7s;
+    white-space: nowrap;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+img.cf-player-thumb {
+    max-height: 150px;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid $lightgrey;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: white;
+}
+
+div.cf-player-title-box {
+    margin: 0 10px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.cf-video-embed {
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    /* 16:9 aspect ration: 9/16=56.25%*0.8=45% */
+    padding-top: 45%;
+    background-color: black;
+}
+
+iframe.cf-embedded-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button.cf-outside-cookie-notice-btn {
+    background-color: $cf-blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+p.cf-outside-cookie-notice-text {
+    color: white;
+}
+
+div.cf-outside-cookie-notice {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-25%, 0);
+    z-index: 1000;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    div.cf-player-box {
+        height: 250px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+
+    h3.cf-player-title {
+        font-size: 1rem !important;
+    }
+
+    div.cf-video-embed {
+        width: 100%;
+        padding-top: 56.25%;
+    }
+}
+
