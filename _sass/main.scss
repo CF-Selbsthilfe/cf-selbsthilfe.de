@@ -514,15 +514,17 @@ p.cf-outside-cookie-notice-text {
 
 div.cf-outside-cookie-notice {
     position: absolute;
-    top: 25%;
+    top: 0%;
     left: 30%;
     transform: translate(-25%, 0);
     z-index: 1000;
     text-align: center;
     width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -540,6 +542,14 @@ div.cf-outside-cookie-notice {
     div.cf-video-embed {
         width: 100%;
         padding-top: 56.25%;
+    }
+}
+
+@media (max-width: 400px) {
+    div.cf-outside-cookie-notice {
+        width: 100%;
+        transform: translate(0, 0);
+        left: 0;
     }
 }
 
