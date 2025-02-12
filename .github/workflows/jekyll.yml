@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-  
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  
+
   # regular rebuild on Mondays 4am to update dates
   schedule:
     - cron: '0 4 * * 1'
@@ -22,7 +22,7 @@ jobs:
       - name: Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.4.1
 
       - name: Install Dependencies/Build
         uses: limjh16/jekyll-action-ts@v2

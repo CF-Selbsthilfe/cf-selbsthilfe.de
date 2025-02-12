@@ -30,7 +30,7 @@ baseurl:  # the subpath of your site, e.g. /blog
 url: "http://www.cf-selbsthilfe.de/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CFSelbsthilfe
 year_created: 2022
-current_year: 2024
+current_year: 2025
 
 timezone: DE
 
