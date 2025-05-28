@@ -1,0 +1,38 @@
+---
+layout: beitrag
+title: Danke an die Teams der CF-Ambulanzen der Uniklinik Ffm!
+date: 2025-05-28 12:00:00
+categories: beitrag Uniklinikum
+excerpt_separator: <!--more-->
+---
+
+**Danke an die Teams der CF-Kinderambulanz und der CF-Erwachsenenambulanz der Uniklinik Ffm!**
+
+Auch dieses Jahr hat die CF-Selbsthilfe Frankfurt wieder den Ambulanztag des Mukoviszidose e.V.s genutzt, um all jenen Danke zu sagen, die sich unermüdlich und mit Herzblut um die Behandlung und Versorgung von Menschen mit Mukoviszidose kümmern. <!--more--> Die CF-Selbsthilfe e.V. hat dies zum Anlass genommen, den Teams um Dr. Eickmeier (CF-Kinderambulanz) und Dr. Kohlhäufl (CF-Erwachsenenambulanz) der Uniklinik Frankfurt mit einem kleinem Geschenk von Herzen Danke zu sagen. 
+
+**Vielen Dank für Euren Einsatz!**
+
+
+<div class="container text-center">
+<div class="row">
+<div class="col-md">
+<figure class="figure d-block text-center mx-auto">
+<img src="{{ "assets/img/posts/patiententag2025kinder.jpeg" | relative_url }}"
+     class="figure-img img-fluid rounded"
+     alt="Bild: CF-Kinderambulanzteam"
+     >
+<figcaption class="figure-caption mx-auto" style="max-width: 600px">Bild: Dr. Olaf Eickmeier und Helen Charis Nöth</figcaption>
+</figure>
+</div>
+
+<div class="col-md">
+<figure class="figure d-block text-center mx-auto">
+
+<img src="{{ "assets/img/posts/patiententag2025erwachsene.jpeg" | relative_url }}"
+     class="figure-img img-fluid rounded"
+     alt="Bild: CF-Erwachsenenambulanzteam"
+     >
+</figure>
+</div>
+</div>
+</div>
