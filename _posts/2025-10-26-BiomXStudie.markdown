@@ -35,7 +35,7 @@ Bei Interesse oder Fragen wenden Sie sich bitte an:<br>
 <i class="fa-solid fa-envelope"></i> <a class="cf-a" href="mailto:pneumo.studien@unimedizin-ffm.de">pneumo.studien@unimedizin-ffm.de</a><br>
 <i class="fa-solid fa-phone"></i> 069 6301 83746
 
-<div class="p-2 px-sm-2 px-lg-5" style="border: 1px solid darkgrey;">
+<div class="p-2 px-sm-2 px-lg-5" style="border: 1px solid darkgrey; margin: 0 0.5rem;">
 
 <div class="row mb-3 flex-nowrap">
   <div class="col-8 d-flex ">
