@@ -1,6 +1,6 @@
 ---
 layout: beitrag
-title: Probanten gesucht für neue Studie zu innovativer Bakteriophagen-Therapie bei CF
+title: Probanden gesucht für neue Studie zu innovativer Bakteriophagen-Therapie bei CF
 date: 2025-10-26 12:00:00
 categories: beitrag
 excerpt_separator: <!--more-->
