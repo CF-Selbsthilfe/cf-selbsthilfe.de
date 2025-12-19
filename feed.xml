@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://www.cf-selbsthilfe.de//feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.cf-selbsthilfe.de//" rel="alternate" type="text/html" /><updated>2025-12-19T12:56:13+00:00</updated><id>http://www.cf-selbsthilfe.de//feed.xml</id><title type="html">cf-selbsthilfe.de</title><subtitle>Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.</subtitle><entry><title type="html">CF-Update Newsletter 10/2025</title><link href="http://www.cf-selbsthilfe.de//2025/12/18/CF-Update-FFM-1.html" rel="alternate" type="text/html" title="CF-Update Newsletter 10/2025" /><published>2025-12-18T12:00:00+00:00</published><updated>2025-12-18T12:00:00+00:00</updated><id>http://www.cf-selbsthilfe.de//2025/12/18/CF-Update-FFM-1</id><content type="html" xml:base="http://www.cf-selbsthilfe.de//2025/12/18/CF-Update-FFM-1.html"><![CDATA[<h3 class="newsletter-title">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://www.cf-selbsthilfe.de//feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.cf-selbsthilfe.de//" rel="alternate" type="text/html" /><updated>2025-12-19T13:04:00+00:00</updated><id>http://www.cf-selbsthilfe.de//feed.xml</id><title type="html">cf-selbsthilfe.de</title><subtitle>Webpräsenz des CF-Selbsthilfe Frankfurt e.V., einem gemeinnützigen Verein zur Unterstützung von Menschen mit Mukoviszidose und deren Angehörigen im Großraum Frankfurt und Umgebung.</subtitle><entry><title type="html">CF-Update Newsletter 10/2025</title><link href="http://www.cf-selbsthilfe.de//2025/12/18/CF-Update-FFM-1.html" rel="alternate" type="text/html" title="CF-Update Newsletter 10/2025" /><published>2025-12-18T12:00:00+00:00</published><updated>2025-12-18T12:00:00+00:00</updated><id>http://www.cf-selbsthilfe.de//2025/12/18/CF-Update-FFM-1</id><content type="html" xml:base="http://www.cf-selbsthilfe.de//2025/12/18/CF-Update-FFM-1.html"><![CDATA[<h3 class="newsletter-title">
 CF-Update
 </h3>
 <h4 class="newsletter-title">
@@ -29,9 +29,9 @@ Ein wichtiges Ziel des Mukoviszidose e.V. ist es, die Versorgung und Behandlung 
 
 <p>In Frankfurt sind Katja Wecke, Anne Wisseler-Soos und Dennis Franke im Patientenbeirat (<a class="cf-link" href="/assets/img/newsletter/PatientenbeiratFFM.jpg">Plakat</a>). Ihr erreicht sie am besten per Mail an: <a class="cf-link" href="mailto:patientenbeirat-ffm@cf-selbsthilfe.de">patientenbeirat-ffm@cf-selbsthilfe.de</a></p>
 
-<div class="container text-center">
+<div class="container text-center newsletter-img" style="max-width: 400px">
 <figure class="figure d-block text-center mx-auto">
-<img src="/assets/img/newsletter/PatientenbeiratFFM.jpg" class="figure-img img-fluid rounded newsletter-img" alt="Bild: Vorstellung des Patientenbeirats" />
+<img src="/assets/img/newsletter/PatientenbeiratFFM.jpg" class="figure-img img-fluid rounded" alt="Bild: Vorstellung des Patientenbeirats" />
 </figure>
 </div>
 
@@ -52,9 +52,9 @@ Gebt uns gerne Rückmeldung auf den Newsletter. Was würde euch interessieren? H
 <h4 class="newsletter">Gruß aus der Praxis</h4>
 <p>Aus den Beuteln des Kaftrio-Granulats lassen sich wunderbar Palmen basteln 😁. Marie (5 Jahre) hatte diese Idee. Vielen Dank!</p>
 
-<div class="container text-center">
+<div class="container text-center newsletter-img">
 <figure class="figure d-block text-center mx-auto">
-<img src="/assets/img/newsletter/Palme.jpg" class="figure-img img-fluid rounded newsletter-img" alt="Bild: Palme aus Kaftrio Granulat Packungen" />
+<img src="/assets/img/newsletter/Palme.jpg" class="figure-img img-fluid rounded" alt="Bild: Palme aus Kaftrio Granulat Packungen" />
 </figure>
 </div>
 

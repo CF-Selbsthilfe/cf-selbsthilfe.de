@@ -549,7 +549,7 @@ h4.newsletter, .newsletter.h4 {
   color: #00a7eb;
 }
 
-img.newsletter-img {
+div.newsletter-img {
   max-width: 400px;
 }
 
