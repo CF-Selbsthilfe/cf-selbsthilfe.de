@@ -39,10 +39,10 @@ Ein wichtiges Ziel des Mukoviszidose e.V. ist es, die Versorgung und Behandlung 
 
 In Frankfurt sind Katja Wecke, Anne Wisseler-Soos und Dennis Franke im Patientenbeirat (<a class="cf-link" href="{{ "assets/img/newsletter/PatientenbeiratFFM.jpg" | relative_url }}">Plakat</a>). Ihr erreicht sie am besten per Mail an: <a class="cf-link" href="mailto:{{ site.email_beirat }}">{{ site.email_beirat }}</a>
 
-<div class="container text-center">
+<div class="container text-center newsletter-img" style="max-width: 400px">
 <figure class="figure d-block text-center mx-auto">
 <img src="{{ "assets/img/newsletter/PatientenbeiratFFM.jpg" | relative_url }}"
-     class="figure-img img-fluid rounded newsletter-img"
+     class="figure-img img-fluid rounded"
      alt="Bild: Vorstellung des Patientenbeirats"
      >
 </figure>
@@ -65,10 +65,10 @@ Mail an: <a class="cf-link" href="mailto:{{ site.email_beirat }}">{{ site.email_
 <h4 class="newsletter">Gruß aus der Praxis</h4>
 Aus den Beuteln des Kaftrio-Granulats lassen sich wunderbar Palmen basteln 😁. Marie (5 Jahre) hatte diese Idee. Vielen Dank!
 
-<div class="container text-center">
+<div class="container text-center newsletter-img">
 <figure class="figure d-block text-center mx-auto">
 <img src="{{ "assets/img/newsletter/Palme.jpg" | relative_url }}"
-     class="figure-img img-fluid rounded newsletter-img"
+     class="figure-img img-fluid rounded"
      alt="Bild: Palme aus Kaftrio Granulat Packungen"
      >
 </figure>
