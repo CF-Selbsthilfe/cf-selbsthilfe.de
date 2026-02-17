@@ -11,3 +11,15 @@ h4.newsletter {
 div.newsletter-img {
     max-width: 400px;
 }
+
+a.newsletter-btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px 0;
+    background-color: $cf-blue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
