@@ -553,6 +553,18 @@ div.newsletter-img {
   max-width: 400px;
 }
 
+a.newsletter-btn {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 10px 0;
+  background-color: #00a7eb;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
