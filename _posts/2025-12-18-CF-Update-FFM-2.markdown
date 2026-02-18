@@ -90,10 +90,11 @@ Turnusgemäß wurden dabei auch Vorstandswahlen durchgeführt – mit dem Ergebn
 </p>
 </div>
 
-<div class="col-md-3" style="padding-bottom: 1em">
+<div class="col-md-3">
 <figure class="figure d-block text-center mx-auto" style="max-height: 200px;">
 <img src="{{ "assets/img/posts/neudiagnosesets.jpeg" | relative_url }}"
      class="figure-img img-fluid rounded"
+     style="max-height:200px;"
      alt="Bild: Dr. Olaf Eickmeier und Helen Charis Nöth"
      >
 </figure>
