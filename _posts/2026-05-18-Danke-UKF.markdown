@@ -1,6 +1,6 @@
 ---
 layout: beitrag
-title: Danke an die Teams der CF-Ambulanzen der Uniklinik Ffm!
+title: Danke an das Team der CF-Kinderambulanz am Uniklinikum Frankfurt!
 date: 2026-05-18 12:00:00
 categories: beitrag Uniklinikum
 excerpt_separator: <!--more-->
