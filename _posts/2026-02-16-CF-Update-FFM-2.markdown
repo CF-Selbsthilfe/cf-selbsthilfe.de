@@ -13,7 +13,7 @@ CF-Update
 </h3>
 <h4 class="newsletter-title">
 Infos für Betroffene im Rhein-Main-Gebiet<br>
-Newsletter 10/2025
+Newsletter 02/2026
 </h4>
 
 Liebe Betroffene, Angehörige und Interessierte!
@@ -29,7 +29,6 @@ Seit dem 17.09.2025 ist die Erwachsenen-Ambulanz über <a href="mailto:pneumolog
 
 <u>Wichtig: Bitte habt etwas Geduld!</u> Die Bearbeitungszeit der E-Mails in beiden Ambulanzen kann bis zu 7 Tagen dauern. Sie werden nach Dringlichkeit bearbeitet. Um Doppelungen zu vermeiden, braucht es keinen zusätzlichen Anruf. Reicht Rezeptwünsche rechtzeitig, also mit ca. 14 Tagen Vorlauf, ein.
 
-<!--><!-->
 <b>Apropos Rezeptwünsche</b><br>
 Bitte verwendet für Rezeptbestellungen das folgenden Formular und gebt die genaue Angabe der gewünschten Medikamente (Medikamentenname, Darreichung, Dosierung, Packungsgröße) an. Das erleichert den Mitarbeitenden in der Kinder- und Erwachsenen-Ambulanz die Arbeit und beschleunigt die Rezepterstellung. Hier findet ihr das <a class="cf-link" href="{{ "/assets/downloads/Rezeptbestellung.docx" | relative_url }}">Formular</a>.
 
