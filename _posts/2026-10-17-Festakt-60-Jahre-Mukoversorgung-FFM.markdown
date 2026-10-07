@@ -17,7 +17,7 @@ Der Jubiläums-Festakt findet statt am:<br>
 **Renate-von-Metzler-Saal**<br>
 **Campus Westend der Goethe-Universität Frankfurt**<br>
 
-<a class="cf-link" href="{{ "/assets/downloads/60_Jahre_Mukoviszidoseversorgung_Frankfurt.pdf" | relative_url }}">Hier</a> finden Sie schon einmal das vorläufige Programm.
+<a class="cf-link" href="{{ "/assets/downloads/60_Jahre_Mukoviszidoseversorgung_Frankfurt.pdf" | relative_url }}">Hier</a> finden Sie das Programm.
 
 Dürfen wir sie bei der Veranstaltung begrüßen?<br>
 Gerne können Sie sich per <a href="mailto:kontakt@cf-selbsthilfe.de">Mail</a> zum Festakt anmelden.
